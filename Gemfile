@@ -3,6 +3,8 @@
 source 'http://rubygems.org'
 
 gem "middleman", "~>3.1.6"
+gem "middleman-blog"
+gem "liquid"
 gem "zurb-foundation"
 
 # Live-reloading plugin

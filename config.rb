@@ -32,11 +32,22 @@ end
 # Helpers
 ###
 
+require "image_tag"
+
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 activate :livereload
+
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.summary_separator = /<!--more-->/
+#  blog.permalink = "/:year/:month/day/:title.html"
+end
+
+activate :directory_indexes
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -68,7 +79,7 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash
+  # activate :asset_hash
 
   # Use relative URLs
   # activate :relative_assets

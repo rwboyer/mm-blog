@@ -1,0 +1,51 @@
+---
+layout: post
+title: Aperture 3 - Can VSCO work?
+comments: true
+categories:
+- Apple Aperture
+- Aperture 3
+- VSCO film
+- presets
+---
+{% img /images/2013/05/vsco-final.jpg %}
+
+So a question came up while chatting about VSCO for Aperture 3 that was actually pretty pragmatic. Simply "is there a simple way to make VSCO work in Aperture 3". Work meaning make it look a whole lot more like VSCO for Lightroom and ACR. The answer is a mixed bag I will give you my take and you decide. The short version is generally yes.
+
+<!--more-->
+
+The problem with the film 01 version - the one I own, I cannot speak to film 02 for Aperture - arises from a few different areas I will take them one by one. Even if you don't use VSCO there may be a couple of things here of interest for Aperture users.
+
+- First off is Aperture 3's default tone curve on most RAW files. At least for all the cameras I have ever used with it. It renders mid tones on the dark side but still with a lot of initial contrast. Specifically it still renders upper highlights really really bright. The multiple curves that VSCO adds seem not to take this default into account so it pulls the mids down even darker and pushes highlights up even further. Every single preset has as it's last curves control a fairly drastic s curve that pulls lower mids down further than in pushes them up.
+- Second Aperture 3 has tons of saturation by default and VSCO only adds more. In some presets it does it directly in with the saturation control. For every one it uses an RGB curve vs a luminosity curve which serves to further and further ramp up saturation to what could already be considered over the top.
+- Third is sometimes a killer. Some of the presets have "toning" all of them have a toning curves control - it's the middle curves control. For some of the presets like Fuji 400H it cuts off the red channel hard. When you combine this with some extremely narrow color control ranges in the reds it does really really bad things.
+
+Those are the things that need to be dealt with. Be for I get into what I consider the simplest way let's take a look at a default preset like 400H and that last problem area I discussed.
+
+{% img /images/2013/05/vsco-reds.jpg %}
+
+The extreme saturation of the default RAW processing combined with that first curves control shown above with that hard red channel cutoff combinded with further jacking up of saturation both in that curves as well as the next one down combined with this kind of thing…
+
+{% img /images/2013/05/vsco-reds-2.jpg %}
+
+That last color control block - check out the pink/red I have highlighted. See how narrow the range is. See the amount of negative saturation here and how narrow that range slider is. All of those things add up to funky artifact-y weird strange shit like you see here in the lips. That's just one example there are a bunch of little things like this that go wonky.
+
+You can also see the other two issues here. They may be hard to relate to but one is overall saturation since it started high and got jacked through the roof with ever increasing RGB contrast added. Anastasia's skin is more like whipped cream than oompa loompa orange. I also shoot with very liberal exposure compared to what most of you probably do. All of the lower mids here are way way way darker than the JPEGs or what they look like in ACR. Too bad the extreme highlights are about the same. If you think this is extreme here's the 800Z preset…
+
+{% img /images/2013/05/vsco-800z.jpg %}
+
+If I keep the *simple* mods to the first two control blocks of exposure and enhance vs modifying the VSCO applied stuff here is some general things to try.
+
+- A combination of increased exposure and most likely additional recovery dialed in to bring some of the extreme highlights back down. For most of my images this will work just fine. Generally speaking if you expose like I do you'll probably need about .3 stops more in the slider. If you expose conservatively as a lot of digital shooters do you'll need more.
+- You'll probably want to dial back black point a bit as well. I would probably say 1 is a good starting point. This lowers the overall contrast and saturation a bit and also opens up the shadows a bit. While your at it turn off the highlights/shadow control that every preset adds. You don't need it and it just sucks CPU. Sure use it if you need it but every images certainly doesn't.
+- So far that's the good part. If you stay in the exposure block the VSCO presets won't touch your modifications. Too bad we also need to dial back the saturation in the enhance block. Some presets use this and overwrite your mods, some don't. Keep an eye on them if you are checking out the various film emulations and re-re-re do what I am about to suggest. Dial the saturation back to around 0.8 for a more realistic film saturation maybe a little higher up to 0.9 if you really love your crazy saturation.
+- Last if you have artifacts and strangeness still going on in your reds it's you have a couple of choices. Most should be fixed by now but ramping up the exposure may have put you back in the same boat. Scroll down to that color control block that I showed you with that red/pink with the really narrow range. Either widen that range out or do what I do since I already bumped saturation down a lot. Just put the saturation at zero instead of the extreme negative value it has. All the presets seem to have it. Looks like an oooops we went too far let's fix it at the end kind of thing. Ummm yea - sometimes that's not such a great idea.
+
+The results of this are at the top. Alternatively you could use that first curves control that VSCO does nothing with to get to the same place as I do or if the image is just not going to take additional exposure/recovery to put the mids where you need them. You'll still need that dial back of saturation as well. So yes - VSCO can be made to look a whole lot more like it does in Lightroom. I just wish VSCO would have done that and matched up their own results to the Lightroom/ACR versions.
+
+One last note - the grain overlays. The way they are implemented is creative for sure and don't look too bad compared to other things I have seen but they will bloat the crap out of your library if you use them a lot so be warned.
+
+Hope this helps those of you that have VSCO film 01 for Aperture at all…
+
+RB
+
