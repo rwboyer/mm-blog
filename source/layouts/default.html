@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+  <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+  <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+  <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+  
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+  
+    <title>{{ page.title }}</title>
+  
+  	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    
+    <!-- Twitter Card Stuff -->
+  	<meta name="twitter:card" content="summary">
+  	<meta name="twitter:site" content="{{ site.twitter_site }}">
+  	<meta name="twitter:creator" content="{{ site.twitter_creator }}">
+	
+  	{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+	
+  	<meta name="twitter:url" content="{{ canonical }}">
+  	<meta name="twitter:title" content="{{ page.title }}">
+  	<meta name="twitter:description" content="{{ page.title }}">
+  
+    <!-- Included CSS Files -->
+    <script data-cfasync="false" type="text/javascript" src="//use.typekit.net/zat8hfk.js"></script>
+    <script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+   <link rel="stylesheet" href="/stylesheets/app.css">
+    
+    <script src="/javascripts/foundation/modernizr.foundation.js"></script>
+    <script src="/javascripts/foundation/jquery.js"></script>
+    
+    <!--
+    <script src="/javascripts/foundation/jquery.foundation.orbit.js"></script>
+    <script src="/javascripts/foundation/jquery.foundation.navigation.js"></script>
+    -->
+    
+    <!--Nivo Slider-->
+    <!--
+    <link rel="stylesheet" href="/javascripts/nivo-slider/nivo-slider.css">
+    <link rel="stylesheet" href="/javascripts/nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+    <script src="/javascripts/nivo-slider/jquery.nivo.slider.pack.js"></script>
+    -->
+	
+  	<!--Lightview 3-->
+  	<!--[if lt IE 9]>
+  	  <script type="text/javascript" src="/javascripts/lightview3/excanvas/excanvas.js"></script>
+  	<![endif]-->
+  	<script type="text/javascript" src="/javascripts/lightview3/js/spinners/spinners.min.js"></script>
+  	<script type="text/javascript" src="/javascripts/lightview3/js/lightview/lightview.js"></script>
+  	<link rel="stylesheet" type="text/css" href="/javascripts/lightview3/css/lightview/lightview.css"/>
+
+
+  
+  	<!-- should prolly go in image pages? -->
+  	
+  	<!--
+  	<script>
+	  	$(document).foundationNavigation();
+  	</script>
+  	<script type="text/javascript">
+  	   $(window).load(function() {
+  		   $('#featured').orbit({
+  		   		animation: 'fade',
+  		   		timer: true,
+  		   		captions: true,
+  		   		pauseOnHover: false,
+  		   		captionAnimation: 'fade'});
+  	   });
+  	</script>
+	
+  	<script type="text/javascript">
+  		$(window).load(function(){
+  			$('#slider').nivoSlider({
+  				effect: 'fade',
+  				directionNav: 'true',
+  				manualAdvance: 'true'
+  			});
+  		});	
+  	</script>
+  	-->
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+  </head>
+
+	<body>
+	  {% include themes/ia/topbar.html %}
+		<div id='container'>
+			{{ content }}
+		</div>
+		{% include JB/analytics %}
+	</body>
+</html>

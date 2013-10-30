@@ -3,6 +3,7 @@
 source 'http://rubygems.org'
 
 gem "middleman", "~>3.1.6"
+gem "zurb-foundation"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"

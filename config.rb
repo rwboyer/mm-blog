@@ -3,9 +3,9 @@
 ###
 
 # Change Compass configuration
- compass_config do |config|
-   config.output_style = :compact
- end
+compass_config do |config|
+ config.output_style = :compact
+end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -45,11 +45,18 @@ activate :livereload
 #   end
 # end
 
-set :css_dir, 'css'
 
 set :js_dir, 'js'
 
-set :images_dir, 'img'
+foundation_path = Gem::Specification.find_by_name('zurb-foundation').gem_dir
+
+sprockets.append_path (foundation_path + '/js/vendor/')
+sprockets.append_path (foundation_path + '/js/foundation/')
+
+# print foundation_path + '/js/vendor/' + "\n"
+
+#set :js_assets_paths, [File.join(foundation_path, 'js')]
+#set :sass_assets_paths, [File.join(foundation_path, '_scss')]
 
 # Build-specific configuration
 configure :build do

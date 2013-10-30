@@ -1,0 +1,17 @@
+$topbar-bg: rgba(255,255,255,0.5) !default;
+//$topbar-dropdown-bg: rgba(34,34,34,0.0);
+
+//$topbar-dropdown-link-bg: lighten($topbar-bg, 5%);
+//$topbar-dropdown-link-bg: rgba(34,34,34,0.0);
+
+$topbar-link-hover-lightness: -30%; // Darken by 30%
+
+//$topbar-link-bg-hover: darken($topbar-bg, 3%);
+//$topbar-link-bg-active: darken($topbar-bg, 3%);
+
+//$topbar-link-bg-active: rgba(34,34,34,0.0);
+
+$topbar-divider-border-bottom: solid 1px lighten($topbar-bg, 10%);
+$topbar-divider-border-top: solid 1px darken($topbar-bg, 10%);
+
+
