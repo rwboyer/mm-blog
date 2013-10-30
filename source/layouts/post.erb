@@ -1,7 +1,8 @@
 <% wrap_layout :layout do %>
   <div id="top-row">
   	<div id='content'>
-        <%= yield %>
+      <%= yield %>
+      <%= partial "disqus" %>        
   	</div>
   	
     <%= partial "sidebar" %>
