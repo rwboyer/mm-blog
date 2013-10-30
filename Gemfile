@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.1.6"
 gem "middleman-blog"
+gem "middleman-sync"
 gem "liquid"
 gem "zurb-foundation"
 

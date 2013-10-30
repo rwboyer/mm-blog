@@ -42,9 +42,10 @@ require "image_tag"
 activate :livereload
 
 activate :blog do |blog|
-  blog.prefix = "blog"
+  #blog.prefix = "blog"
   blog.summary_separator = /<!--more-->/
-#  blog.permalink = "/:year/:month/day/:title.html"
+  blog.permalink = "/:year/:month/:day/:title.html"
+  blog.sources = "blog/:year-:month-:day-:title.html"
 end
 
 activate :directory_indexes
