@@ -47,6 +47,7 @@ activate :livereload
 
 
 set :js_dir, 'js'
+set :css_dir, 'css'
 
 foundation_path = Gem::Specification.find_by_name('zurb-foundation').gem_dir
 

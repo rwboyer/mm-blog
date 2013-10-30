@@ -1,0 +1,41 @@
+<div class="fixed">
+	
+  <nav class="top-bar">
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <h1><a href="#">RB|Design</a></h1>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+  
+    <section class="top-bar-section">
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="http://store.rwboyer.com/">eBooks</a></li>
+        <li><a href="/blog/archives/">Archive</a></li>
+      </ul>
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="has-form">
+          <form action="http://google.com/search" method="get">
+            <div class="row collapse">
+              <div class="small-8 columns">
+    						<input type="hidden" name="q" value="site:{{ site.production_url | shorthand_url }}" />             
+                <input type="text" name="q" results="0" placeholder="Search">
+              </div>
+              <!--
+              <div class="small-4 columns">
+                <a href="#" class="alert button">Search</a>
+              </div>
+              -->
+            </div>
+          </form>
+        </li>
+      </ul>
+    </section>
+  </nav>
+
+</div>
