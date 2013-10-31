@@ -32,6 +32,8 @@ end
 # Helpers
 ###
 
+# Ported Liquid tags
+
 require "image_tag"
 
 
