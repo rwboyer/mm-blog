@@ -8,9 +8,7 @@ blogindex: true
 
 <div class="blog-index">
   <% page_articles.each do |current_article| %>
-      <article>
-        <%= partial "article", :locals => {:post => current_article} %>
-      </article>
+      <%= partial "article", :locals => {:post => current_article} %>
     <hr>
   <% end %>
   <div class="pagination">

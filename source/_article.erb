@@ -1,25 +1,25 @@
-<header>
-<% if current_page.data.blogindex %>
-  <h2 class="entry-title"><a href=<%= "#{post.url}" %>><%= post.title %></a></h2>
-<% else %>
-  <h2 class="entry-title"><%= post.title %></h2>
-<% end %>
-<!--
-  <p class="meta">
-	{% include themes/lpfa/post/date.html %}{{ time }}
-	{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
-	 | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
-	{% endif %}
-  </p>
--->
-</header>
-<% if current_page.data.blogindex %>
-  <div class="entry-content"><%= post.summary %></div>
-	<footer>
-	  <a rel="full-article" href=<%= "#{post.url}" %>>More&hellip;</a>
-	</footer>
-<% else %>
-<!--
-	<div class="entry-content">{{ content }}</div>
--->
-<% end %>
+<article>
+	<header>
+	<% if current_page.data.blogindex %>
+	  <h2 class="entry-title"><a href=<%= "#{post.url}" %>><%= post.title %></a></h2>
+	<% else %>
+	  <h2 class="entry-title"><%= post.title %></h2>
+	<% end %>
+	<p class="meta">
+		<time><%= post.date.strftime('%b %e %Y') %></time>
+	<!--
+		{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
+		 | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+		{% endif %}
+	-->
+	</p>
+	</header>
+	<% if current_page.data.blogindex %>
+	  <div class="entry-content"><%= post.summary %></div>
+		<footer>
+		  <a rel="full-article" href=<%= "#{post.url}" %>>More&hellip;</a>
+		</footer>
+	<% else %>
+		<div class="entry-content"><%= post.body %></div>
+	<% end %>
+</article>

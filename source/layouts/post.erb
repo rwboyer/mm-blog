@@ -1,7 +1,8 @@
 <% wrap_layout :layout do %>
   <div id="top-row">
   	<div id='content'>
-      <%= yield %>
+      <% yield %>
+      <%= partial "article", :locals => {:post => current_article} %>
       <%= partial "disqus" %>        
   	</div>
   	
