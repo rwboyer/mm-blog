@@ -14,7 +14,8 @@ end
 # Per-page layout changes:
 #
 # With no layout
-# page "/path/to/file.html", :layout => false
+page "/feed.xml", :layout => false
+
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
@@ -45,6 +46,8 @@ activate :livereload
 
 activate :blog do |blog|
   #blog.prefix = "blog"
+  blog.paginate = true
+  blog.page_link = "page/:num"
   blog.summary_separator = /<!--more-->/
   blog.permalink = "/:year/:month/:day/:title.html"
   blog.sources = "blog/:year-:month-:day-:title.html"

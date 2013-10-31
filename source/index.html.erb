@@ -1,6 +1,29 @@
 ---
-title: HTML5 Boilerplate Middleman
+title: RB Design
 layout: page
+pageable: true
+per_page: 10
+blogindex: true
 ---
 
-<p>This is HTML5 Boilerplate.</p>
+<div class="blog-index">
+  <% page_articles.each do |current_article| %>
+      <article>
+        <%= partial "article", :locals => {:post => current_article} %>
+      </article>
+    <hr>
+  <% end %>
+  <div class="pagination">
+    <% if paginate %>
+	    <% if prev_page %>
+	    	<%= link_to "&larr; Newer", prev_page.url %>
+	    <% end %>
+	  <% end %>
+    <a href="/blog/archives">Blog Archives</a>
+		<% if paginate %>
+	    <% if next_page %>
+	    	<%= link_to "Older &rarr;", next_page.url %>
+	    <% end %>
+	  <% end %>
+  </div>
+</div>
