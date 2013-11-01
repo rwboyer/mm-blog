@@ -1,0 +1,19 @@
+---
+layout: page
+title: Categories
+---
+
+<% cat = {} %>
+<% blog.articles.each do |article| %>
+	<% article.data.categories.each do |c| %>
+		<% if cat[c] %>
+		  <% cat[c] = cat[c] + 1 %>
+		<% else %>
+			<% cat[c] = 1 %>
+		<% end %>
+	<% end %>
+<% end %>
+
+<% cat.keys.each do |k| %>
+	<h2><%= "#{k} = #{cat[k]}" %></h2>
+<% end %>

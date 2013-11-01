@@ -1,6 +1,6 @@
 <section>
   <h3>Featured Articles</h3>
-	<% blog.articles.select {|a| a.raw_data[:featured] }.each do |post| %>
+	<% blog.articles.select {|a| a.data.featured }.each do |post| %>
     <a class="side" href=<%= "#{post.url}" %>>
       <img class="side" src=<%= "#{post.raw_data[:featured]}" %>></img>
     </a>
