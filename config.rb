@@ -15,6 +15,7 @@ end
 #
 # With no layout
 page "/feed.xml", :layout => false
+ignore "/test.html"
 
 #
 # With alternative layout
@@ -42,7 +43,6 @@ require "image_tag"
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-activate :livereload
 
 activate :blog do |blog|
   #blog.prefix = "blog"
@@ -54,6 +54,7 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
+activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -75,6 +76,29 @@ sprockets.append_path (foundation_path + '/js/foundation/')
 
 #set :js_assets_paths, [File.join(foundation_path, 'js')]
 #set :sass_assets_paths, [File.join(foundation_path, '_scss')]
+
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket                     = 'typkit.rwboyer.com' # The name of the S3 bucket you are targetting. This is globally unique.
+  s3_sync.region                     = 'us-east-1'     # The AWS region for your bucket.
+  s3_sync.aws_access_key_id          = ENV['AMAZON_ACCESS_KEY_ID'] #'AWS KEY ID'
+  s3_sync.aws_secret_access_key      = ENV['AMAZON_SECRET_ACCESS_KEY'] #'AWS SECRET KEY'
+  s3_sync.delete                     = true # We delete stray files by default.
+  s3_sync.after_build                = false # We chain after the build step by default. This may not be your desired behavior...
+  s3_sync.prefer_gzip                = false
+  s3_sync.path_style                 = true
+  s3_sync.reduced_redundancy_storage = true
+end
+
+# activate :sync do |sync|
+#   sync.fog_provider = 'AWS' # Your storage provider
+#   sync.fog_directory = 'typkit.rwboyer.com' # Your bucket name
+#   sync.fog_region = 'us-east-1' # The region your storage bucket is in (eg us-east-1, us-west-1, eu-west-1, ap-southeast-1 )
+#   sync.aws_access_key_id = 'AKIAJKY3IKU2UPVE6XEQ' # Your Amazon S3 access key
+#   sync.aws_secret_access_key = '1MsBvX+SH8CNfFTVrqE7nf1GBXI7MO/21SYPIUep' # Your Amazon S3 access secret
+#   sync.existing_remote_files = 'delete' # What to do with your existing remote files? ( keep or delete )
+#   # sync.gzip_compression = false # Automatically replace files with their equivalent gzip compressed version
+#   # sync.after_build = false # Disable sync to run after Middleman build ( defaults to true )
+# end
 
 # Build-specific configuration
 configure :build do

@@ -1,0 +1,26 @@
+---
+layout: page
+title: Archive
+---
+
+<% blog_year = "" %>
+<% blog_month = "" %>
+
+<div id="archive">
+	<% blog.articles.each do |post| %>
+		<% if post.date.strftime("%Y") != blog_year then %>
+			<h2><%= blog_year = post.date.strftime("%Y") %></h2>
+		<% end %>
+		<% if post.date.strftime("%b") != blog_month then %>
+			<h3><%= blog_month = post.date.strftime("%b") %></h3>
+			<%= "<ul>" %>
+		<% end %>
+
+		<li><span><%= post.date.strftime("%b %e %Y") %></span><a href=<%= "#{post.url}" %>><%= post.title %></a></li>
+
+		<% if post.previous_article && post.previous_article.date.strftime("%b") != blog_month then %>
+			<%= "</ul>" %>
+		<% end %>
+		
+	<% end %>
+</div>

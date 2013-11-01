@@ -3,10 +3,14 @@
 source 'http://rubygems.org'
 
 gem "middleman", "~>3.1.6"
+gem "excon", "0.28.0"
+gem "fog", "1.18.0"
 gem "middleman-blog"
 gem "middleman-sync"
+gem "middleman-s3_sync"
 gem "liquid"
 gem "zurb-foundation"
+gem "unf"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
