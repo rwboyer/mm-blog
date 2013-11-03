@@ -7,6 +7,7 @@ title: Archive
 <% blog_month = "" %>
 
 <div id="archive">
+<!--	<h1>The Archives Reloaded</h1> -->
 	<% blog.articles.each do |post| %>
 		<% if post.date.strftime("%Y") != blog_year then %>
 			<h2><%= blog_year = post.date.strftime("%Y") %></h2>

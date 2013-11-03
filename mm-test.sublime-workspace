@@ -7,21 +7,155 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 574,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 3631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ruby-config-env",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Unix",
+				"name": "RUBY_GC_MALLOC_LIMIT=90000000"
+			}
+		},
+		{
+			"file": "source/archives.html.erb",
+			"settings":
+			{
+				"buffer_size": 700,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/layouts/layout.erb",
+			"settings":
+			{
+				"buffer_size": 1287,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				":e",
+				":e - Revert"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git lo",
+				"Git: Quick Log"
+			],
+			[
+				"gitl",
+				"Git: Quick Log"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"emm",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: List Packages"
+			]
 		],
-		"width": 392.0
+		"width": 516.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 139.0,
 		"history":
 		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
 		]
 	},
 	"distraction_free":
@@ -35,19 +169,146 @@
 	},
 	"file_history":
 	[
-		"/Users/rwboyer/ruby/compass-play/les-zurb/_config.yml",
+		"/Users/rwboyer/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-24-site-layout-update.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/index.html.erb",
+		"/Users/rwboyer/ruby/mm-test/mm-test.sublime-project",
+		"/Users/rwboyer/ruby/mm-test/Gemfile.lock",
+		"/Users/rwboyer/ruby/mm-test/source/_topbar.erb",
+		"/Users/rwboyer/ruby/mm-test/source/_recent_posts.erb",
+		"/Users/rwboyer/ruby/mm-test/source/_twitter.erb",
+		"/Users/rwboyer/ruby/mm-test/source/apple-touch-icon-144x144-precomposed.png",
 		"/Users/rwboyer/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/rwboyer/ruby/mixtest/templates/index.liquid"
+		"/Users/rwboyer/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/rwboyer/ruby/mm-test/source/.htaccess",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Creating .htaccess",
+		"/Users/rwboyer/ruby/mm-test/source/archives.html.erb",
+		"/Users/rwboyer/ruby/mm-test/build/archives/index.html",
+		"/Users/rwboyer/ruby/mm-test/source/_google.erb",
+		"/Users/rwboyer/ruby/mm-test/source/_sidebar.erb",
+		"/Users/rwboyer/ruby/mm-test/source/layouts/layout.erb",
+		"/Users/rwboyer/ruby/mm-test/source/layouts/page.erb",
+		"/Users/rwboyer/ruby/mm-test/source/layouts/post.erb",
+		"/Users/rwboyer/ruby/mm-test/s3_sync  Deleting images:2013:09:DSC_4670-85m",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Deleting images:2013:09:DSCF0724-com",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Deleting images:2013:08:DSCF8094-e10",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Deleting images:2013:06:DSCF8094-ooc",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Deleting images:2013:05:1999-021-08s",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Deleting images:2013:03:DSC_5857.jpg",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Creating index.html",
+		"/Users/rwboyer/ruby/mm-test/build/s3_sync  Deleting images:2012:11:camera-pron:",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Updating 2013:01:31:wb-creative-cont",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Updating 2011:02:19:a-smattering-of-",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Updating 2010:02:08:small-strobes-qu",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Deleting images:2012:01:P1020480.jpg",
+		"/Users/rwboyer/ruby/mm-test/s3errors/s3_sync  Deleting images:2012:09:DSCF4604.jpg",
+		"/Users/rwboyer/ruby/compass-play/les-zurb/_includes/themes/ia/default.html",
+		"/Users/rwboyer/ruby/compass-play/les-zurb/_layouts/default.html",
+		"/Users/rwboyer/ruby/compass-play/les-zurb/_config.yml",
+		"/Users/rwboyer/ruby/compass-play/les-zurb/_includes/JB/analytics",
+		"/Users/rwboyer/ruby/mm-test/source/archive/archive.html.erb",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2008-07-25-quick-tip-using-a-beauty-dish.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2008-07-23-some-thoughts-on-white-balance.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-23-aperture-3-fuji-x-trans-raw.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-22-contact-sheet-experiment-iii.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-22-aperture-x-presets-etc.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-21-fuji-x-series-the-emotional-connection.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-20-project-contact-sheet-ii.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-18-X100s-iq-window-light-projects-etc.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-17-friday-thoughts-projects-etc.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-16-x100s-top-10-wish-list.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-16-paul-pride-project-update.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-16-laroque-challenge-version-2.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-15-olynoys-om-d-vs-fuji-xe-1-bottom-line.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-15-fuji-x100s-expert-mode.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-13-how-the-fuji-x100s-influences-subjects.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-09-project-contact-sheet-i.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-07-controversy-and-mob-think.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-06-planning-vs-preparedness-ii.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-04-x100s-tale-of-two-flares.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-04-getting-it-right-in-camera.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-03-planning-vs-preparedness-preface.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-10-02-small-camera-dilemma.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-30-to-hell-with-rules.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-29-new-cameras-and-smart-money.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-28-shooting-the-fuji-x100s.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-27-fuji-x100s-magic-the-lens.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-25-fuji-x100s-vs-full-frame-dslr.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-25-fuji-x100s-vs-full-frame-dslr-part-ii.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-24-focus-dof-35mm-v-50mm-etc.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-23-back-from-dc-x100s-large-apertures.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-19-off-to-dc-gear-selection.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-17-preparation-experimentation-practice.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-16-monday-update-operation-laroque-dc-etc.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-15-fuji-x-trans-color-etc.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-15-aperture3-fuji-x-trans-raw.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-14-gear-vs-everything-else.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-14-funny-film-emulation-of-the-day.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-13-operation-laroque.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-12-end-of-summer-road-trip.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-09-aperture-3-fuji-film-presets.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-08-a-tale-of-two-50mm-lenses.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-07-aperture-3-white-balance.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-06-aperture-3-black-point-control.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-05-paul-pride-project-update.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-03-aperture-3-portra-film-presets.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-09-02-aperture-3-portra-film-presets-final-update.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-26-true-blood-other-media-and-inspiration.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-22-matching-vsco-acr-in-aperture-3.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-22-keyword-button-groups-aperture-3-tip-of-the-day.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-20-kodak-film-presets-for-aperture-3-update-3.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-20-full-screen-hud-aperture-3-tip-of-the-day.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-16-preset-for-aperture3-questions.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-16-kodak-film-presets-for-aperture-3.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-16-friday-photo-geek-out.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-16-aperture-3-film-presets-update-2.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-15-portra-160nc-preset-for-aperture-3-update.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-15-aperture-3-for-image-layouts.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-14-aperture-film-presets-pre-release-update.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-13-kodak-portra-160nc-aperture-3-preset.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-10-kodak-portra-400nc-free-preset-for-aperture.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-09-free-film-preset-for-aperture.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-07-vsco-film-04-a-first-look.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-07-the-revenge-of-srgb.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-07-some-aperture-film-preset-love.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-06-a-tale-of-two-papers.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-04-2013-aperture-3-still-my-go-to-tool.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-08-01-light-is-everything.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-30-mixing-strobe-with-ambient-light.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-28-slow-shutter-vsco-aperture3-etc.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-28-Aperture-3-and-fuji-xtrans-raw.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-27-x100s-story-telling-device.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-26-my-x100-paul-pride-project-update-etc.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-23-old-technology-and-other-horror-stories.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-19-the-paul-pride-project-update-iv.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-07-the-paul-pride-project-update-iii.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-07-the-paul-pride-project-update-ii.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-06-the-paul-pride-project-update-i.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-06-fuji-x100s-more-seriously.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-05-fuji-x100s-seriously.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-03-x-trans-forest-and-trees.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-07-01-the-paul-pride-project.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-30-film-lenses-etc-via-email.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-29-film-film-film-blah-blah-blah.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-26-context.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-25-photography-goings-on.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-24-fuji-x-series-color.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-23-mixed-lighting.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-22-lighting-ratios-and-post.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-21-fuji-xpro1-vs-dslr.md.liquid",
+		"/Users/rwboyer/ruby/mm-test/source/blog/2013-06-19-indie-film-lab.md.liquid"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/rwboyer/ruby/mm-test/source/blog",
+			"/Users/rwboyer/ruby/mm-test/source"
 		]
 	},
 	"find_state":
@@ -55,13 +316,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"activate",
+			"ignore",
+			"categories:",
+			"li",
+			"content",
+			"as",
+			"asides",
+			"featured",
+			"2012",
+			"2012-11-"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"tags:"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -72,18 +344,168 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1572,
+								1572
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								80
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 898.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ruby-config-env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"auto_name": "RUBY_GC_MALLOC_LIMIT=90000000",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/archives.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/layouts/layout.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1232,
+								1232
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								80
+							],
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 36.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -108,10 +530,22 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.git-commit":
+	{
+		"height": 112.0
+	},
+	"output.git-push":
+	{
+		"height": 112.0
+	},
 	"project": "mm-test.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -119,6 +553,30 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"2013-10-24",
+				"source/blog/2013-10-24-site-layout-update.md.liquid"
+			],
+			[
+				"post",
+				"source/layouts/post.erb"
+			],
+			[
+				"page",
+				"source/layouts/page.erb"
+			],
+			[
+				"topbar",
+				"source/_topbar.erb"
+			],
+			[
+				"body",
+				"build/2010/01/20/photographers-web-sites-hateful-thought-of-the-day/index.html"
+			],
+			[
+				"erb",
+				"source/_topbar.erb"
+			]
 		],
 		"width": 0.0
 	},
@@ -142,12 +600,13 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
-	"show_tabs": true,
+	"show_open_files": true,
+	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 169.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
+		"max_columns": 3
 	}
 }
