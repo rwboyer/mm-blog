@@ -53,6 +53,7 @@ $hovercolor: $highlightcolor - #333;
 
 // Compass mixins
 @import "compass/css3/transition";
+@import "compass/css3/transform";
 @import "white-topbar";
 
 @mixin font-smoothing($font-smoothing) { 
@@ -77,6 +78,41 @@ img{
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
+
+.box{
+	position: relative;
+	overflow: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	img{
+		@include transition(ease-out 300ms);
+		position: relative;
+		margin: 0;
+	}
+}
+
+.box .caption{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+	@include transition(ease-out 300ms);
+	left: 0;
+}
+
+.box .fade-caption{
+	height: 30px;
+	width: 100%;
+	display: block;
+	bottom: -30px;
+	line-height: 25pt;
+	text-align: center;
+}
+
+.box:hover .fade-caption{	
+	@include translate(0, -100%);
+}
+
 
 a{
 	color: $highlightcolor;

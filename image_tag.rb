@@ -23,10 +23,18 @@ module IMGtag
     def render(context)
       #page_url = context.environments.first["page"]["url"]
       if @img
-        "<a href=\"#{@img['src']}\" rel=\"lightbox\">\n" + 
-        #"<a href=\"#{@img['src']}\" class=\"lightview\">\n" +
-        "<img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}>\n" +
-        "</a>" 
+        tag = "<div class=\"box\">" +
+          "<a href=\"#{@img['src']}\" rel=\"lightbox\">\n" + 
+          #"<a href=\"#{@img['src']}\" class=\"lightview\">\n" +
+          "<img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}>\n" +
+          "</a>"        
+        if @img['title']
+          tag = tag + "<span class=\"caption fade-caption\">" +
+            "<p>#{@img['title']}</p>" +
+            "</span>"
+        end
+        tag = tag + "</div>"
+        tag
       else
         "Error processing input, expected syntax: {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | \"title text\" [\"alt text\"]] %}"
       end
