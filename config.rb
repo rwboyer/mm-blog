@@ -15,6 +15,7 @@ end
 #
 # With no layout
 page "/atom.xml", :layout => false
+page "/recent-posts.html", :layout => false
 ignore "/test.html"
 
 #
