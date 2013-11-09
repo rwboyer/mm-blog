@@ -1,4 +1,5 @@
 //= require "custom.modernizr"
 //= require "jquery"
 //= require "foundation"
-//= require "_vendor/slimbox2"
+//= require "_vendor/lightview3/js/lightview/lightview"
+//= require "_vendor/lightview3/js/spinners/spinners.min"
