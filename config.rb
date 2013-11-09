@@ -57,6 +57,8 @@ end
 activate :directory_indexes
 activate :livereload
 
+page "googleb3e869d9c79d4a69.html", :directory_index => false
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
