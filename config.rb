@@ -14,7 +14,7 @@ end
 # Per-page layout changes:
 #
 # With no layout
-page "/feed.xml", :layout => false
+page "/atom.xml", :layout => false
 ignore "/test.html"
 
 #
