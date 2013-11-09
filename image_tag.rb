@@ -23,10 +23,11 @@ module IMGtag
     def render(context)
       #page_url = context.environments.first["page"]["url"]
       if @img
-        tag = "<div class=\"box\">" +
+        tag = "<div class=\"box #{@img['class']}\">" +
           "<a href=\"#{@img['src']}\" rel=\"lightbox\">\n" + 
           #"<a href=\"#{@img['src']}\" class=\"lightview\">\n" +
-          "<img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}>\n" +
+          #"<img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}>\n" +
+          "<img title=\"#{@img['title']}\" src=\"#{@img['src']}\">\n" +
           "</a>"        
         if @img['title']
           tag = tag + "<span class=\"caption fade-caption\">" +
