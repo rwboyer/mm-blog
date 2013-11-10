@@ -1,16 +1,10 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
-    activemodel (3.2.15)
-      activesupport (= 3.2.15)
-      builder (~> 3.0.0)
     activesupport (3.2.15)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    asset_sync (1.0.0)
-      activemodel
-      fog (>= 1.8.0)
-    builder (3.0.4)
+    builder (3.2.2)
     chunky_png (1.2.9)
     coffee-script (2.2.0)
       coffee-script-source
@@ -28,7 +22,7 @@ GEM
     excon (0.28.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    ffi (1.9.2)
+    ffi (1.9.3)
     fog (1.18.0)
       builder
       excon (~> 0.28.0)
@@ -83,22 +77,20 @@ GEM
       multi_json (~> 1.0)
       rack-livereload
     middleman-more (3.1.6)
-    middleman-s3_sync (3.0.19)
+    middleman-s3_sync (3.0.20)
       colorize
       fog (>= 1.10.1)
       map
       middleman-core (>= 3.0.0)
       pmap
       ruby-progressbar
+      unf
     middleman-sprockets (3.1.4)
       middleman-core (>= 3.0.14)
       middleman-more (>= 3.0.14)
       sprockets (~> 2.1)
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
-    middleman-sync (3.0.12)
-      asset_sync (~> 1.0.0)
-      middleman-core (>= 3.0.0)
     mime-types (2.0)
     mini_portile (0.5.2)
     multi_json (1.8.2)
@@ -148,14 +140,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  excon (= 0.28.0)
-  fog (= 1.18.0)
   liquid
   middleman (~> 3.1.6)
   middleman-blog
   middleman-livereload (~> 3.1.0)
   middleman-s3_sync
-  middleman-sync
   ruby18_source_location
   unf
   wdm (~> 0.1.0)
