@@ -1,0 +1,53 @@
+---
+layout: post
+title: White Balance Musings
+comments: true
+tags:
+- Nikon
+- 50mm
+- Nikon D600
+- Aperture 3
+- white balance
+- color
+---
+{% img /images/2013/11/DSC_9542-nikon-day.jpg %}
+
+In celebration of Aperture 3's brand spanking new *feature* I thought I would <s>rant</s> share a few thoughts regarding white balance today. Yep, yet again Apple adds insult to injury as White Balance is broken in several new ways somewhere in the last update or so. You know the update - the one that was supposed to be Aperture X but was just 3.5. Now the temp/tint mode is hopelessly broken. The most obvious broken-ness is the sampler tool now will skew neutral gray or anything close to crazy green - as in -72 or -88 or -153 or whatever.
+
+<!--more-->
+
+A temporary work around is to use the *neutral gray* mode but that's really not suitable at all as any tweaks - which are almost **always** required are only along one axis which is pretty much useless for most cameras. I have sort of explained why a few different ways but if you are not as <s>curious</s> ridiculously focused on things that make no sense as I am then you might not be intimately familiar with the unexplainable really bad human interface that is labeled *White Balance* in just about every RAW processor.
+
+Trying not to rephrase every rant on the topic I've ever muttered on the topic let me see if I can summarize the sorry state of affairs that we seem to all be mired in well over a decade after all of this crap should have been sorted out. At least from a human interface point of view. None of this is Aperture specific - In fact I will use Lightroom 5 for today's illustrations.
+
+- Way way back when I got my first digital camera I shot 80% JPEG and a little bit of RAW. When I used RAW I used Nikon Capture - PIA hence mostly JPEG. Aperture 1.0 came out - switched over to RAW shooting but... WB numbers made no sense to me = my very first question on Apple Aperture forums = no answer.
+- Fast forward 2013. All RAW processors with most cameras (some notable exceptions) the WB temperature and tint numbers have nothing to do with anything that relates to reality of numbers in the camera - nor anything that's actually happening with the light - well maybe relatively but not absolutely. Hence one set of temp/tint numbers that produce some result with one camera produce different results with a different camera with no rhyme or reason in the same exact scene. 
+- "Liking or disliking" one camera's color vs another has %99.999999 dependency on that particular cameras auto or particular flavor of daylight/preset white balance. End of story. Other characteristics like contrast are easy to match (obviously they influence perception/saturation of color too) WB - good luck without targets and even with targets tweaking it one way or another is a completely different endeavor from one camera to the next. Not kidding - not delusional. I work with dozens of different cameras from dozens of different photographers in post. I have to "learn" each one's particular WB "numbers" and how they relate to each other - or not - for every different camera manufacturer. 
+
+Okay take all the above with an open mind for a second and just assume it's true. Even if it's not for your particular camera. Which it's not for the Hasselblad H4D for instance - which the WB numbers are exactly what one would expect from the presets and conditions once inside LR5/ACR. Now let's move on to something a bit more mainstream like what I happen to have laying here - the [D600](http://www.amazon.com/gp/product/B0099XGZXA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0099XGZXA&linkCode=as2&tag=rbde-20). 
+
+Using the *daylight* preset on the camera produces the result at the top. Please forgive the StupidCrap™ subject it was the closest pile of crap from where I'm writing this - no adjustments just the LR defaults. Obviously it's not *daylight* conditions but that's not what I am going to illustrate. Taking a look at the *numbers* LR5 tells me this is 5050 on the temperature axis and +4 on the tint axis. Okay... doesn't sound like "daylight" does it. Now let's see what happens if we go into Nikon's convenient White Balance fine-tuning. This allows us to adjust the defaults independently on the temperature and tint axes. Leaving the "temperature" the same let's skew the tint as little as possible towards pink - one notch out of many. 
+
+We get the following.
+
+{% img /images/2013/11/DSC_9539-nikon-pink.jpg %}
+
+Whoa - that's crazy more pink. Not really relevant but it's also a rant of mine that Nikon's "fine tuning" is actually crazy coarse tuning pretty much making it useless - which it is. Maybe they will fix this with firmware - ummmm nope been this way on all Nikon cameras post Picture Control = Sucks because this is what I would love to dial in to fix my camera's color to my preferences. What is relevant to this particular conversation is the numbers - they happen to be 5150 on the temp axis and 18 on the tint axis in Lightroom 5. WTF? First off - associated with my Nikon "fine-tuning" complaint is the **huge** number 18 but more interesting and useful is that 5150 - hmmmmm, hmmmmmmm. Why is the temp different when I didn't touch this axis?
+
+Let's put that tint axis back to the default and just mess with the temp axis. How about one notch warmer. We get this...
+
+{% img /images/2013/11/DSC_9543-nikon-warmer.jpg %}
+
+The associated numbers happen to be 5150 again on the temp axis and now they are 3 on the tint axis. Whoa shouldn't that be 4 if the camera/RAW software numbers and controls had *anything to do with each other*. Okay let's see what happens with one notch cooler than the default.
+
+{% img /images/2013/11/DSC_9546-nikon-cooler.jpg %}
+
+Now we get 4900 temp an +5 tint. Funny stuff right? What does this all mean? Well it means exactly what I told you it means - the numbers in RAW processors (other than the manufacturers) for most cameras - not all have nothing to do with anything. They are arbitrary but even more importantly the temp and the tint aren't even really independent inside any particular RAW processor and may need to be messed about with together if you want warmer/cooler - even if the tint is fine... or not.
+
+The point is you really need to figure out how the temp/tint for your particular camera work and what they do in what relationships rather than attempt to transplant some recipe that might work for another camera in terms of tweaking color. Use your eyes - not the numbers. Unless of course you happen to be really familiar with the numbers for your particular camera and how they two sliders interact.
+
+Personally I never liked the Nikon presets for daylight or cloudy or shade. I didn't really like the way the auto skewed either. If..., if, if the very nice two axis fine tuning controls they give you for each and every preset actually were "fine tuning" rather than huge skews for each notch I would be very happy. I'm not. It's really not a big deal but it still bothers the crap out of me that through the 3,267 layers of software shit between you and the actual RAW data no image processing software can seem to do this translation to some "standard" that is valid across camera brands and insulate you from this bullshit.
+
+Okay - done for today on my "why o why" stuff for today. I guess the Aperture 3 WB breakage of the moment (they seam to break it in a different way regularly) just set me off.
+
+RB
