@@ -1,0 +1,56 @@
+---
+layout: post
+title: RAW Processors And Religious Wars
+comments: true
+tags:
+- Apple Aperture
+- Aperture 3.5
+- Adobe Ligthroom
+- Lightroom 5
+---
+
+{% img /images/2013/11/ap-3-acr-match-1.jpg %}
+
+Religious wars. That may be a little strong. Actually way too strong but let's stick with that for a second. In some ways the discussions regarding the merits or lack thereof remind me of Canon v. Nikon, Mac v. PC, etc. Mole hills turned into mountains. I guess it's human nature to examine differences and magnify them into some chasm of contrast - night/day kind of measurement. As a public service for anyone interested I'm going to share a ten second exercise - literally it took me ten seconds to do this. Far less time than sharing it here. That exercise is matching the Lightroom 5/ACR 8 default RAW rendering in Aperture 3 and then applying the most basic correction required for this specific image.
+
+<!--more-->
+
+Why do this? Well, I've had two dozen discussions with various photographers from around the web regarding image quality, look, etc. of various RAW processors on their files and the *why* they prefer one over another. They all have spun off in various directions and while one person's set of thoughts were a lot different on the surface there was a common theme underlying the folks I happened to talk to. What an image looks like as a starting point when imported into a particular RAW processor - seriously. 
+
+They all have various strengths and weaknesses. Some are particularly convenient at some specific task or correction even if that correction is not the *best that can be had*. I'm not going to play that game here. I am going to focus on just the very basic fundamentals. Specifically the way an image looks out of the box in one versus another. I happened to choose Lightroom 5 and Aperture 3.5.1 for this but I could do the same thing with Capture One, whatever.
+
+The image I am going to use for demonstration purposes has a basic *issue*. It happens to be underexposed by a whole stop by any measure due to my [re-examining working method and using auto-exposure][1] instead of my usual M.O. The image at the top represents 10 seconds or less worth of work to match up the results between Lightroom 5's out of the box RAW decode as you see on the left and Aperture 3's on the right. Both at full pixel peep zoom - both on an area out of focus (shot at f/1.4 focus point is on eyes above). Let's run through what was required to get the results within a hair of each other. I used the Lightroom decode as the baseline and adjusted Aperture 3 to match. I could have done the reverse just as well.
+
+- Exposure +0.05
+- Black point set to 1.2
+- The saturation set to 0.95
+- A color control block with a hue centered around 30 degrees shifted -4.0 on hue
+- Another color control block (I could have used the same one but wanted you to see in the screen shot and it all be on screen) with the default blue hue saturation shifted -15.0
+
+That's it. Nothing complex. I did it by eye not measuring numbers or anything of course you could do that if that helps you. Turns out that set of stuff put the histograms to be virtually identical. I did leave out one tiny thing on purpose. The blues are about 1 degree greener in Lightroom/ACR as opposed to a hair more purple in Aperture 3. I could have shifted that in the blue control block a hair. I like them a bit more purple. Here's the point - this isn't a scientific exercise - it's a visual one. One based on what you want not some arbitrary "standard". 
+
+How about "accuracy" well is Capture One accurate - the default blues are way more towards purple and way more saturated than Aperture 3. Aperture is somewhere in the middle in terms of blues between Capture One and Lightroom/ACR. I happened to use exposure to match the LR default. I could have just as easily used a curves adjustment - doesn't matter. This isn't a recipe it's a demonstration there's no night/day. I am also sure if there were greens/yellows in this image they would need to be skewed one way or another by a hair. Whatever - where do you want them? That's important. Okay now let's fix the exposure fault. Let's add one whole stop to both images - on the left we see that using Adobe's exposure slider on the right Aperture 3's
+
+{% img /images/2013/11/ap3-acr-match-2.jpg %}
+
+That's pretty stinking close even though the two sliders work in *wildly different* ways since ACR 7/Lightroom 4. The lightroom exposure now compresses the high tonal values instead of raising them as much as they used to. The Aperture exposure control produces results almost identical to as if you exposed more/less in camera. Will they produce different results on a different image - sure. Mostly in the very very highest values. If I had an image that needed that type of adjustment I would use a curves adjustment to get exactly what I wanted anyway - at least I would in Aperture 3. I may use one in Lightroom, I might not if the exposure slider did what I wanted. Different looking tool - same results. With this truly underexposed image they produce nearly identical results since there were no absolute white - or even close values to start with. 
+
+I actually coached someone last week via email on Lightroom use - they were surprised regarding the depth of knowledge I had regarding that software. I guess that would be because I poo-poo it so much. Guess what - I spend a shit load of time in Lightroom - hence all the hate I have for it with one exception - ACR. Usually I am working on other people's images or doing a one on one or a workshop when using LR. 
+
+Here's my take at the moment on the state of the RAW processor union.
+
+- Lightroom. ACR is fantastic but the curves control is a bit clunky. Useable but clunky. The rest of it? Slow, cumbersome, ill-thought out, dreck.
+- Aperture 3. Absolutely great but could use a bit of specialized features and functions in the RAW adjustments, as well as some convenience features. The local adjustments are fine for tiny things but need a complete re-think more along the lines of ACR. Obviously lens corrections would be fantastic - when you need/want them. Things are not all Champagne and roses over there in ACR - I do NOT apply lens corrections as a matter of course. There are a bunch that actually over correct things like vignette that look terrible. 
+- Capture One. Hmmm yes it's probably *as good* in terms of IQ as ACR and Aperture 3. Your milage will vary depending on the image and shooting condition specifics. It may be the most cumbersome out of the three - talk about clunky. It's awful compared to both in a lot of ways. Does it have decent lens correction - yes. Maybe the *best* Is the color tool kind of nice - sure. Is it magical compared to the others - no. I especially don't like the curves tool. The whole thing is kind of stone age and I expect it will appear even more so as Adobe/Apple continue to improve their respective tools.
+
+So there you have my assessment of three tools which I am intimately familiar with. All of them are perfectly great for the fundamental things. Each producing superlative IQ from most cameras (there are exceptions - Aperture 3 is dreck when it comes to Hasselblad for instance). The decision is yours and you need to base it on your needs and desires. What gets you to the end in a convenient and efficient manner. Honestly that really depends more on what you want than it does what a particular tool does or does not do. The problem is assessing that for yourself - I would hope you don't go about doing that based on the *default* decode. That kind of defeats the whole reason to shoot RAW in the first place.
+
+I am not even going to try to tell everyone or anyone what their particular criteria should be or shouldn't be beyond avoiding assessment of "defaults" as the whole story. Mine happen to be pretty simple in the post-processing department. A good color correction/WB tool. Basic exposure/contrast/saturation adjustments. Above anything else a nice curves tool. Aperture 3 has the "best" curves tool - not in terms of results. In terms of precision and use. Oh yea - and great "IQ" as in detail, color, etc.
+
+When it comes to the rest of the process - rating, comparing, getting to selects, making groups of images, viewing, finding, manipulation of metadata, keywording etc. With a few nits Aperture 3 blows the doors of just about everything else. ACR is a big win in terms of completeness of feature set. Capture One? More trouble than it's worth in most cases. Unless it does something for you that's absolutely GREAT in your particular set of desires/needs. I happen to be very impatient so import speed is important to me - Aperture 3 has super quick import. See - that's a personal nit - you maybe could care less. Oh Aperture 3 is pretty - that's important to me too. You may be okay with not so pretty. Whatever. The point is for the most part as long as a tool is competent - especially for the basics it's probably a hallucination that some nit is crucial to your photography. 
+
+Just a thought or fifty.
+
+RB
+
+[1]:	http://photo.rwboyer.com/2013/11/25/reevaluation-fuji-x100-etc/
