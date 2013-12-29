@@ -52,6 +52,7 @@ activate :blog do |blog|
   blog.summary_separator = /<!--more-->/
   blog.permalink = "/:year/:month/:day/:title.html"
   blog.sources = "blog/:year-:month-:day-:title.html"
+  blog.tag_template = "tag.html"
 end
 
 activate :directory_indexes
