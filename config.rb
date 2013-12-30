@@ -93,19 +93,6 @@ activate :s3_sync do |s3_sync|
   s3_sync.reduced_redundancy_storage = true
 end
 
-# Fog.credentials = { :path_style => true }
-# 
-# activate :sync do |sync|
-#   sync.fog_provider = 'AWS' # Your storage provider
-#   sync.fog_directory = 'typkit.rwboyer.com' # Your bucket name
-#   sync.fog_region = 'us-east-1' # The region your storage bucket is in (eg us-east-1, us-west-1, eu-west-1, ap-southeast-1 )
-#   sync.aws_access_key_id = 'AKIAJKY3IKU2UPVE6XEQ' # Your Amazon S3 access key
-#   sync.aws_secret_access_key = '1MsBvX+SH8CNfFTVrqE7nf1GBXI7MO/21SYPIUep' # Your Amazon S3 access secret
-#   sync.existing_remote_files = 'keep' # What to do with your existing remote files? ( keep or delete )
-#   # sync.gzip_compression = false # Automatically replace files with their equivalent gzip compressed version
-#   # sync.after_build = false # Disable sync to run after Middleman build ( defaults to true )
-# end
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
