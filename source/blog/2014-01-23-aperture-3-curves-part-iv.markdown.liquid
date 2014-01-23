@@ -1,0 +1,54 @@
+---
+layout: post
+title: Curves Follow-Up Part IV
+comments: true
+tags:
+- apple aperture
+- aperture 3
+- adjustments
+- curves
+---
+
+{% img /images/2014/01/ap3-color-neg-10.jpg %}
+
+Today is hopefully a brief follow-up regarding the Aperture 3 curves tool along with some other connected bits. First off a working method. Due to the unique property of all the original tonal information being available within Aperture 3's curves tool rather than some truncated version I happen to choose a specific working method out of convenience. Specifically I will use the exposure control to boost exposure and then the curves tool to reshape the output response to my particular desire of the moment.
+
+<!--more-->
+
+I ran across a bunch of images I shot almost a year ago, most of which I never even looked at before. I needed two images to complete the [Window Light Field Guide][1] and really didn't bother with any of the rest shot that day. I've used random ones here and there as illustrations for various posts and found some others that may serve the same purpose only this time related to curves and tonal response. Unlike the eBook images I'm going to modify this particular image way beyond a preset on import.
+
+What we have here is a typical real world lighting situation that can be problematic -- well at least for digital capture. Visually it looks nice as you are standing there but the camera sees it far differently. I've mentioned that one of the things that I really miss about film is shooting negative film in *real world light* sans modifiers, lights, setup, gear, etc. With negative film I typically expose for the subject rendering I want, letting the highlights take care of themselves. This works great on color or black and white negative film. Even with no local adjustments at the print stage it looks good. I'll simulate the same thing here today.
+
+In a scene like this where you have a heck of a lot of contrast but overall softer light you have a lot of choices as to how to deal with it when shooting digital. Choice one is expose to ensure the highlight information is captured and everything else will be way too dark. Choice two, expose for the main subject rendering you want putting all of the highlights into the stratosphere, never to to be heard from again. Last and usually the best choice for any sort of commercial work, bring some gear to the scene and lift the shadows. Things like reflectors, more lights bouncing off the reflectors, etc. My particular specialty has always been doing the last thing while preserving the look of the original scene. In other words - making it look like it wasn't lit. In a lot of circumstances that's not convenient, not planned for, or simply not good because it completely changes the dynamic of the situation which may very important.
+
+Of course you can just up and leave... don't shoot scenes that don't work due to the default response of your camera. That's a valid choice. I did leave out one exposure option from the spectrum I elaborated above... Splitting the difference. Exposing sub-optimally for both shadows and highlights. If you choose to expose mainly for the highlight rendering or the subject (in relative shadow) typically you will want to position that subject and compose to suit either highlight or shadow. Splitting the difference and exposing with neither one being optimal will generally result in terrible OOC JPEG's -- really bad.
+
+The screenshot at the top is after a quick exposure and curves adjustment that you can see if you open the image in a new window full-size. It's along the lines of what would happen if I exposed differently using color negative film and prioritized the exposure for the subject. Reasonable contrast throughout the mid-tones and very compressed highlights. Here's the OOC exposure when spliting the difference between highlight/shadow also with warnings turned on...
+
+{% img /images/2014/01/ap3-color-neg-11.jpg %}
+
+Note the direct sun strikes on Mary. Obviously this wouldn't look the same if I choose an in camera exposure 1 and 1/3 stops higher. You can see how jammed up both the shadows are and how close to the edge the highlights were in the above screenshot. At reasonable ISO settings on recent cameras I have no issue boosting exposure about a stop in post. The highlights are pretty hot here as well, even underexposed. As you can see from the top screenshot nothing was completely gone. Choosing exposures that attempt to be *middle of the road* with any kind of general post-processing treatment in mind are usually best done in the context of knowing your camera well. I talk about that a lot but here's a few things to consider.
+
+- What do your lower mids and shadows actually look like at what ISO settings when you boost exposure in post? Are they all hard, and crispy, lacking tonal smoothness and filled with noise?
+- When do your highlights really and truly leave the building  beyond any hope. where are they without any separation. Sometimes how they actually look between where they are okay and where they are goon is more important. Do experiments and find out for yourself.
+- What kind of look do you have in mind for the end result. This image is heavily modified in my book compared to in-camera exposure (I'm a bit conservative) but I had a look in mind when I shot it. Knowing that when making in-camera choices is far better than determining that some other day.
+
+The last point actually has to do with all post-processing in general. While playing around and experimenting is all great and wonderful -- we should all do that a lot, it's not a working method. Having some idea of where you want to go visually is essential to using whatever tools you have at your disposal both when shooting and when executing some treatment on the backend. The more comfortable you are with knowing where you want to go the less dependent you will be on the way any particular tools works or the way something looks by default.
+
+On that note the rendering at the top of the page happens to be what I would consider *typical or normal* for well exposed color negative film in that scenario. I brought the exposure up to what I would have been done in camera if I were shooting negative film. Using the unique nature of Aperture's curves tool in extended mode I brought all the highlights back into the visible output region. This lowered the contrast significantly so I put the mid-tone contrast back to about where it was when we started. Normal. Part of that *normal* is where I chose to start compressing all the highlights together. In relation to Mary -- the subject -- I only compressed the highest values in the scene, hence normal.
+
+Do we have to do *normal*? Of course not. Just for illustration let's make it look a bit more like color negative film that I overexposed by a very wide margin. How about 2 stops additional, maybe 3 or 4 depending one which color negative film we're talking about. Here's one treatment...
+
+{% img /images/2014/01/ap3-color-neg-12.jpg %}
+
+The only change here is where I started compressing those tonal values the overall white and black didn't change just the distribution of the values. That's what curves is for. Distributing tonal values to your whim and along with it allocating contrast. Why the color negative film reference? Well that's my reference point. When I use the word *compress* that's just another way of saying lowering the contrast in a certain range of tonal values. You can see it clearly in the curve shape. Correspondingly it increased contrast elsewhere compared to the curve at the top. Almost all of Mary's skin is now in that range of compression or lower contrast and all of it is significantly above mid-tone. So are the lips and eye shadow makeup. See how that goes "pastel". I didn't alter the color one tiny bit. The saturation is affected due to the change in contrast. The luminance values of various things are different and your perception of color is massively changed. 
+
+In case you cannot see it for yourself I'll tell you where to look. The contrast in most of Mary's skin, not all of it, is lower and since we are in RGB mode it also changed the saturation to be lower. Look at the hair now and the skin seen on the left through the sheer strips in her top. There the contrast is increased and is showing more saturation. This is how color negative film works as well. The white curtains didn't change much -- they were already highly compressed in the first treatment. 
+
+As an aside, you don't need massive numbers of adjustments to every single thing that can be adjusted to get a *film look* or any *look* for that matter. Just a few simple things will have massive impact on overall effect. I chose a path to both of these treatments that relies on a unique property of Aperture's curves tool. I could get to the exact same place just using curves and not messing with the exposure slider - all that does is mess with the tonal response curve - just with it's own set of control points. I could do it in Lightroom, or Photoshop, or Capture One and get the same result even though those curves tools are more traditional. In those cases I probably would have lowered exposure and then done the rest with those particular curves tools. Maybe I would have used those tool's highlight tools and curves. Whatever seemed more convenient. I hope that explains why having some idea where you want to go is more important than any tool in particular -- as long as that tool isn't hopelessly broken.
+
+RB
+
+Ps. Sorry for the strange crops I was in a strange angle and crop mood that day. Also had a massive headache.
+
+[1]:	http://store.rwboyer.com/
