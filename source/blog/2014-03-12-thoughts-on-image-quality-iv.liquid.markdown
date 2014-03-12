@@ -1,0 +1,42 @@
+---
+layout: post
+title: Thoughts On Image Quality IV
+comments: true
+tags:
+- Nikon D600
+- 50mm
+---
+
+{% img img-left /images/2014/03/DSC_1561.jpg %}
+
+In the [last installment][1] I contrasted some samples of what could be considered optimal circumstances to the most horrid conditions imaginable. Pushed to the limits of the camera's ISO, shot wide open where the lens performs it's worst, noisy, gritty, grimey, worse dynamic range than cameras a generation ago, less resolving power, all of it bad from a technical point of view but the pictures are great. Well, I like them so that counts for something I guess.
+
+Today we're going to pixel peep a shot in horrid light, camera at it's max, wide open, no DOF, etc. I'm even going to leave the fake grain turned on when we look at those so we'll get a pixel level view of all the crap. You were waiting for the seminal 100% crop weren't you? You didn't think I would have a series on image quality without ever showing that did you? What's different is I'm not going to show you a *wow, hey man look at all that detail* kind of thing. Instead I'll be demonstrating the opposite because it supports a few things I consider universal when behind the camera making photographs. Things that apply no matter how bad or good your camera, glass, etc, etc.
+
+<!--more-->
+
+So, why the heck would we look at 100% crops of max-iso images with fake grain turned on and no noise reduction? Simple, were not going to talk about noise or anything like that. Instead we're going to look at relative sharpness with respect to the depth of the scene, relative subject contrast, perception of depth of field vs actual sharpness and lots of other factors that I assure you are far more important than any specific absolute sharpness or resolution in the way a photograph looks as a whole. I have tons of images that are absolutely perfect in terms of image resolution and focus that just don't give a good impression of sharpness even though thay resolve a ton of detail. I tend to make less of those when it counts now -- not because my cameras are better or I'm shooting autofocus vs manual focus, or my glass is better. It's because I am evaluating the scene more appropriately or setting it up differently, or lighting it differently, or one of a million factors that are more important than technical performance of any of those gear related things.
+
+The image at the top *feels sharp* with respect to the subject in relation to the background or even the foreground. Let's review those techno-stats real quick for some context. D600 with 50mm f/1.4G shot at ISO 6400 1/40s wide open. There are some other details to consider here as well, also more important for the holy grail of image quality. Handheld of a somewhat dynamic situation with the subject in motion -- not fast but moving none the less. At this point Mika was under the direction of another photographer that I was coaching. I was on the sidelines attempting to grab *moments that worked*.
+
+Certainly not optimum conditions for sharpness or detail. Just about the farthest thing from either. Truth is there is no real detail. High ISO's, wide open lenses, slow shutter speeds, noise, and added fake grain are enemies conspiring to obliterate any notion of detail. That doesn't mean that *details* are unimportant it more of *what kind of details are important*. This goes hand in hand with sharpness or perception of sharpness when discussing image quality -- or more importantly **quality of image**. My primary goal was in grabbing expression and gesture which were quite fleeting. Let's look at what's going on at a pixel peeping level shall we?
+
+{% img /images/2014/03/DSC_1561-crop.jpg %}
+
+Are pores rendered with clarity? Certainly not. I cropped a section that showed the absolute near far limits of the subject for contemplation. Okay, contemplation is far too serious an endeavor so let's just consider whats going on. Even at this distance you can see f/1.4 on a 50mm really doesn't have any depth of field to speak of. I tend to shoot as if there is no such thing as depth of field -- actually I treat focus as strictly in one place or another and everything else as varying degrees of out of focus from a little bit to a lot. That point of view helps me personally in evaluating a scene, a subject, all the stuff in the frame etc. A different model of the world may help you... what I have found to be universally true no matter what view of the world you have in terms of focus is that relative focus is absolutely crazy important in terms of how an image looks.
+
+At this hyper magnification you can see that only a tiny slice of the subject is actually in focus. It's hard to tell exactly what point and we'll get to why in a moment. I would submit to you a notion that it's not **just the magnification** that shows this but another characteristic that skews perception just as much -- removal of context. You cannot really see the rest of the scene and how much focus or lack of it exists relative to the subject. This factor is crazy important in the way a photo looks and viewer perception of focus. Obviously the numbers will vary based on your sensor/film format, lens focal length, aperture, subject distance, etc, etc. The concept doesn't vary that much though. 
+
+Here's what I mean... if your scene is relatively flat everything will render about the same degree of focus give or take. There won't be much contrast in depth of focus. There's not much differentiation. Those kinds of scenes play differently from a visual sense, even if they have crazy shallow focus they don't feel that way. Not only that but in many cases they feel "softer" in terms of clarity and sharpness if **any of it** is out of focus. Especially if they are high detail scenes. Conversely if there is a lot of relative depth anything close to in focus feels really sharp. I've discussed this before but thought it was worth mentioning again in a different context and coming at it from a different direction.
+
+Going back to that *other thing I mentioned*, let's look at why it's so hard to figure out where the exact focus plane is here even at high magnification. Well, there are a number of reasons, we have not much detail so we are relying almost entirely on edge contrast. We also have a lot of fake grain which is all sharp everywhere. There's also some motion blur here and there in different areas. The important part is that edge contrast thing. Take a wild guess where you see it the most... Yep, in high contrast areas. I'll propose a notion to you that having high contrast areas are absolutely just as important if not more important as actual focus. Take a look again at where you perceive the actual focus to be. You'll find some contradictions throughout the cropped area. Areas that are obviously at different depths so cannot be right on the plane of focus that appear sharper -- much sharper than things that are on the same plane. In fact you'll find that you may determine multiple planes of focus based on a contrast that are contradictory. See what I mean? This is important in the context of where you choose to place your focus. If it doesn't correspond to an area of high contrast whatever is actually precisely focused won't look like it is compared to other areas. 
+
+Let's go back to resolution of detail vs image details. Detail in terms of resolving power is absolutely not a part of this image both technically but it doesn't need it. That's not part of the equation. I would submit that if we had crazy resolution of fine detail it wouldn't make it any better or worse in this case. Alternatively subjective details make or break in this image -- which isn't always true but in this case critical. Specifically the details of gesture and expression. 
+
+In a situation like this, not just because I'm in sub-optimal conditions, things like Mika's hand gesture and especially here momentary glance and facial expression are so far more important details than detail resolution it's hard to even articulate. In response I wasn't busy re-re-re-re adjustment my focus to optimize for a half inch here or a half inch there. I focused and waited for it to happen. I would suggest that consideration of this is pretty critical to making photographs. It's also important getting a feel for the things I discussed above in assessment of your approach.
+
+More later.
+
+RB
+
+[1]:	http://photo.rwboyer.com/2014/03/07/thoughts-on-image-quality-part-iii/
