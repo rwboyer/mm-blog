@@ -10,7 +10,7 @@ tags:
 
 {% img img-left /images/2014/03/DSCF1520.jpg %}
 
-I [mentioned that I did another installment of the Atomic Canary Window Light Mini-workshop last Sunday](). I also ranted about using the [Fuji X100S]() to make make demonstration shots as my one and only camera. All complaints meant to keep the universe in balance in contrast to the gushing praise lavished on Fuji. Today I wanted to veer away from the gear rants to explain why I love hosting this particular two hour mini workshop. In a lot of ways the reason I love leading this little foray into simplicity is the same reason I still love shooting film in some of my super simple 35mm cameras made decades ago.
+I [mentioned that I did another installment of the Atomic Canary Window Light Mini-workshop last Sunday][1]. I also ranted about using the [Fuji X100S][2] to make make demonstration shots as my one and only camera. All complaints meant to keep the universe in balance in contrast to the gushing praise lavished on Fuji. Today I wanted to veer away from the gear rants to explain why I love hosting this particular two hour mini workshop. In a lot of ways the reason I love leading this little foray into simplicity is the same reason I still love shooting film in some of my super simple 35mm cameras made decades ago.
 
 When I walk others through distinct variations of the **exact same scene with the exact same light** it helps me to get back to the things that really matter. Not the gear but the subject. Even more it's how you creatively use what's in front of you rather than the need to bring more and more complexity to any given scene and subject. It also tends to really focus you on working with what you've got rather than wishing you had something else or running for the gear bag searching for gadgets that will somehow improve the situation. In other words -- using your head versus some placebo that tricks you into thinking you don't have to.
 
@@ -41,3 +41,5 @@ RB
 Ps. Post-processing treatment was VSCO film 01 Fuji 800Z
 
 
+[1]:	http://photo.rwboyer.com/2014/03/25/fuji-x100s-performance-under-pressure/
+[2]:	http://www.amazon.com/gp/product/B00ATM1MVA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00ATM1MVA&linkCode=as2&tag=rbde-20
