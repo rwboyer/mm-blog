@@ -28,7 +28,7 @@ To human vision it registers as the color black but sheer and see-through. It's 
 
 Even if nobody remembers that tiny little bunch of words nor the two examples I made showing it visually there's a good chance they actually made their own picture by accident that shows at least half of what I was pontificating about on that little thing within the big variations of the scene. The picture at the top of the post is the opaque version I made as a demonstration shot. If I made more than one I could have made it even more opaque. Here's the demonstration of how it completely changes character with a teeny-tiny bit of provocation.
 
-{% img img-right /images/2014/03/DSCF1517.jpg %}
+{% img img-right /images/2014/03/DSCF1516.jpg %}
 
 Not my two best pictures ever but they worked to get my point across. Also note that both are sorta work-safe... even the transparent version due to strategic positioning of various bits. Practicing a goal of mine to make sure we actually start to accumulate some work-safe promo BTS shots, etc, etc. In any case I thought it that little variation within the two bigger variations was interesting way to point out learning to really look at what's going on with your eyes instead of allowing your eye-brain combo to take over and lead you to believe that same light, same scene, same subject equals same picture. It doesn't, it never ever does. All of it is extremely variable and a lot of those variables can be manipulated by choices that you as the photographer make.
  
