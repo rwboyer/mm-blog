@@ -8,7 +8,7 @@ tags:
 - gear
 ---
 
-{% img img-left /images/2014/04/DSC_3051.jpg %}
+{% img /images/2014/04/DSC_3051.jpg %}
 
 We'll I've done it. I've gone looking at *new gear*. I really shouldn't have started looking but I really need a semi-wide lens. Of course I have a fantastic hunk-o-semi-wide glass. Truly astonishing in it's performance. That beast of a lens the [Nikon 28-70 AF-S][1]. Too bad it's so stinking big and so ponderous I just don't want to carry it. I won't carry it. Even when I lug the thing with me to a static shoot where I don't have a camera bag on my shoulder I rarely take it out. It's just massive. Now that I've spoiled myself with primes it just seems silly. 
 
