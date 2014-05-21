@@ -1,0 +1,64 @@
+---
+layout: post
+title: Slow Shutter, VSCO Film For Aperture 3, Etc.
+comments: true
+tags:
+- Aperture 3
+- Apple Aperture
+- vsco
+---
+{% img /images/2013/07/ap3-shutter-speed-1.jpg %}
+
+Now for something completely random… 
+
+Had a brief discussion with [@jakopz](jakopz) on twitter just now regarding slow shutter speed effects and some images I shot and processed with VSCO Film 02 a while back. He's going to try some slow shutter speed stuff with a gig he's shooting tonight - wish him luck. Two things crossed my mind that I wanted to post while I had the time, so here they are.
+
+<!--more-->
+
+First off - slow shutter speed effects. I remembered a post regarding [slow shutter speeds from a while ago](http://photo.rwboyer.com/2013/03/10/laroque-challenge-followup-3/) so I sent him a link. I do chit chat about shutter speed but the post is more about things that get *stuck in your head* over time and eventually deserve a re-think. The shutter speeds stuff is kind of buried.
+
+Here's the bottom line on slow shutter speed effects and some things to think about. The effects you will get all depend… If you are going for a deliberately planned and setup kind of thing that just has a bunch of blurry stuff and a static thing go-ahead, use something **really** long. You know like the kind of thing where there is a sea of mushy stuff flowing around a single sharp person. If you are doing something a hair more subtle there are a couple of things you absolutely must take into account.
+
+- First off how fast is the motion going to be of your subject. This one is obvious.
+- Second, how far away are you going to be from that motion. A foot? Ten feet? One hundred?
+- Third and closely related to the last item what lens are you going to use to shoot it.
+
+Me - I like to know exactly what's going to happen and what it's going to look like along with what challenges I'm going to face. I experiment with the pertinent conditions prior to ever going out and using this kind of stuff on real subjects. Take the shot at the top. If you open it up in a new window you can see the image at 100% magnification. You should be able to clearly see that there are bits obviously motion blurred as well as bits that are sharp as a tack. This is exactly the kind of effect I was after for that series - so I practiced and tested the day before I shot it.
+
+The factors in my determination of 1/8 being perfect were the look I wanted combined with predetermination to use a 50mm. The other big factor was that *obstacle* thing. For me 1/15 produced similar results during my experiments but I had a far far harder time actually timing and predicting which pieces would be sharp and which one's wouldn't. Strange but true. I went with the better chance of me nailing what I wanted. Just info for your consideration - esoteric yes… where else are you going to find not one but two (or more - I forget) way too long dissertations on friggin' slow shutter speed to achieve one particular effect?
+
+Moving on - I mention all the time I am not a big fan of VSCO film for Aperture 3. I also mention that I do use it but *tweaked* a bit more to my liking. What I never really talked about was exactly what those tweaks were so here they are - not recipes as such - more like general things that I find problematic.
+
+Let's start with a general thing with both film 01 and 02:
+
+- Seems like the default tone curve is really not considered when putting all this stuff together, nor is overall default saturation. For some presets this results in idiotically saturated images and anything below a mid-tone becoming way way too dark because of how much the lower mids and shadows are pulled down (more than once) with curves.
+- Regarding the tone curves there are two very closely related items you may want to screw with… First is black point. A good starting point will be 0 for all the VSCO presets.
+- The second tone-curve thing is considering bringing up at least one of the curve points in the shadows a hair - or more.
+- With respect to saturation - almost never never never will you want to add saturation way up at the top of the adjustments in the enhancements block - same goes for vibrance. If you do all of the curves are will add so much more saturation it just looks nutty imho.
+- Toning and fading effects are combined into one curve control and cannot be dealt with via the toolkit. You have to get into that particular curves control and tweak it yourself - don't forget to save the result as your own version of a preset. We'll talk about this more in a second. Don't want toning or fading - easy, just look for the curves block that has all the whacky RGB lines all over the place - turn it off.
+
+Specifically for Film 01 let's take a look at a huge general problem - at least for a heck of a lot of images. I used Film 02 for the top image so here's another one for demonstration purposes.
+
+{% img /images/2013/07/ap3-shutter-speed-2.jpg %}
+
+If you look at the last color control adjustment - look for the pink hue I have selected… Check out how narrow the hue range is. Too narrow. That's what's causing this really strange posterization on Anastasia's lips. Not good. Best solution just widen the range a bit. The bad thing is that the negative saturation is so so extreme on that adjustment that it may also start to take the life out of other things like skin in certain images. This is due to not only how extreme it is but also a bunch of other negative saturation adjustments that are surrounding that particular hue. Remember me mentioning I am lazy? Well for my needs and my images if I happen to use VSCO for Aperture 3 I tweak this per image - what I really need to do is re-engineer the whole deal here to get the same effect without 400,000 adjustments some seeming to undo the piled up saturation here from the other 399,000 that came before.
+
+Okay now for Film 02 - doesn't seem to have the "narrow pink re-do-undo-extreme issue". Instead we find ourselves with a relocated fading/toning curves control. Now instead of being in the middle of the rest of the curves it's the last one in the line. Don't want fading/toning. Again just turn it off too bad that may leave you with a bunch of color block adjustments that don't look quite right. Here's the rub with the fading/toning block in Film 02 for Aperture 3 - every single preset pushes in so so so much red/orange into all of the tones starting below mid-tone it's actually crazy and over the top. If you just turn it off it seems that the color control blocks are sort of expecting this red/orange to be there - maybe, who knows. 
+
+What we need is **less** reds/oranges in the mids and highlights. Way less in most cases. If you couple the red/orange pushed into the mids and highlights **and** the fairly giant increase in orange saturation for a lot of the 02 presets it's a recipe for nuclear skin as well as a hair trigger reaction for any white balance adjustments. It's just plain crazy.
+
+Let's take a look at the image at the top - generally what I do is go into that particular last curves block, go into each channel and grab the existing points that are there. I just make them less extreme in the mids and highlights. Here's how.
+
+- I move the reds down far closer to the linear response for both the point at the mids as well as the point in the highlights as you can see below.
+- You also have to deal with the greens and the blues in proportion. I move the green points in the mids and highlights up. 
+- Same goes for the blue points If you don't you will get yellows and magentas instead of oranges. I tone this "toning" down quite a bit.
+
+{% img /images/2013/07/ap3-shutter-speed-3.jpg %}
+
+This particular image as well as the one at the top happens to be a modified version of VSCO film 02 - Kodak Portra 160VC with the grain overlays and all. It's particularly nasty on skin in it's default state (even if the WB is a hair cooler than neutral - forget anything warm). Also note in the above screen shot I happened to use the toolkit "orange skin fix" on top of the tone-down of the toning. If you look carefully it takes away 15 points of orange that was added back in in the very next color adjustment block. 
+
+I really don't care for all the undoing of the issues that should never make it into the "preset" in the first place - heck just one strait preset has a bunch of stuff that seems merely to "fix" issues introduced earlier in the processing pipeline. If you combine that along with the apparent lack of regard for the default Aperture tone curve and saturation it just doesn't seem up to par with VSCO's Lightroom products.
+
+Hope anyone finds this esoteric post at all useful.
+
+RB 

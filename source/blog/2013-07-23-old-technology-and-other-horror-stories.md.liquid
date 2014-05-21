@@ -1,0 +1,41 @@
+---
+layout: post
+title: Under-maintained Tech And Other Horror Stories
+comments: true
+tags:
+- film
+- Nikon FE
+- 35mm
+- 50m
+- Fujifilm
+---
+{% img /images/2013/07/DSCF0722.jpg %}
+
+After messing about with all sorts of TechnoCrap™ for a week or so solid (my solid is probably a bit more extreme than most people's) I just had to mess around with some of my junk. How could I resist. I mean I was on a roll and had some momentum. 
+
+As usual my stuff was/is in a far more half-baked miserable state than things I do for other people. My modus operandi is pretty much - just make it work - at all - done. If it appears to work it's fine. Doesn't matter what collateral damage is left laying around. Doesn't matter how ugly it is. Doesn't matter if there are screaming bleeding little bits scattered about begging for some triage. When it works I am done.
+
+<!--more-->
+
+That brings me to today's little aside. Consider it a word of warning or just a little humor for those that like to laugh at things gone horribly wrong with those that should know better.
+
+Well I started down the road of really upgrading all of the infrastructure that I use to host this site and my [little eBook store](http://store.rwboyer.com). The very first thing I did was upgrade all of the build components for this blog to the latest and greatest. Ruby 2.0, all the latest ruby gems (Jekyll 1.1.0 just to continue the saga - was eventually pulled down. It doesn't exist anymore - just my luck to be the FIRST one to find out how forked it was) etc, etc, etc. What I didn't do is upgrade the Foundation 3 framework to Foundation 4. Not going to happen right now - I am sick of this shit.
+
+I also updated my little eBook store. I actually styled it a bit and it is using Foundation 4. It's running on the new wunder-stack over at [Heroku](http://heroku.com/) and the databases, etc, etc have all been migrated to the newest and bestest…
+
+So far so good. So what's the rub. Well… when you leave stuff be for years at a time except for a hack here and there without any real monitoring, testing, supervision, or other activities of normal diligence all sorts of things happen. Little things and big things. They all pile up and it seems like it all happened today - the day you take to do what you planned on doing throwing a giant wrench (spanner for you UK readers) into the plan. Things you discover all at once, horrible unplanned things that have been going on for god knows how long causing you to exclaim *holy shit* about every two seconds that you scramble to fix right in the middle of your *plan*.
+
+Here's a few years worth of shit I just found out about that needed to be *fixed* that have somehow happened with little untested unplanned hacks…
+
+- I haven't really used the top level [rwboyer.com](http://rwboyer.com/) domain to do anything since about 2004 or so. Even then it wasn't important. I never ran a business off of my name. In fact this blog is about the only thing really associated with my actual name ever. At least from an internet perspective. I have used it on occasion for a quick and dirty throw down of some code with a real dns name for testing and experiments and little IPv6 infrastructure testing and things like that. Then I forget about it. The little side endeavor goes away and… Today I discover that the IP rwboyer.com is pointed to is some voice over IP company. Seems they now have that IP in Amazon AWS somewhere… Funny stuff. Hence I just chucked a quick and dirty site up statically hosted that points to this site and has a pretty picture on it. 
+- As I was tracking down that little snafu I realized that the DNS for various things under rwboyer.com was actually being resolved in about 40 different places. I cleaned it up a bit but I really should get rid of the 87 different DNS servers/services I have all over the glob for various domains and pieces of domains.
+- One of my hobbies with this blog as well as the eBook store is I like to see how much technology I can bring to bear and how much traffic I can serve with what kind of performance for as close to zero dollars as possible. Usually it's fun. The Heroku free tier is awesome heck I get 4 threads of AWS EC2 instance goodness for free as long as my traffic keeps the free app engine from becoming spared out. It does - usually. As an added bonus the assets are actually securely hosted on S3 which is right next door to Heroku (they actually run on AWS as well) keeping things nice and speedy with zero latency. Very cool. S3 is crazy available world-wide and crazy cheap for storing a big giant static website while serving traffic off of it to. 
+- Too bad one of my cheap-out-schemes of custom invalidation logic for my S3 objects (this blog) to keep cloud front CDN from refreshing when it didn't have to… (really) was so overly complicated that it actually broke quite a while ago. I really don't know how - I did the breaking - I don't care. Unfortunately this made cloud front virtually useless and quite expensive. Hmmmm opposite of the goal. The cost is buried so so deep in my AWS invoice I never really noticed considering if I fire up a test instance for a week of a *real* app it dwarfs my S3/CF stuff. I just ditched the whole works. Moved the CDN to a different less complicated set of stuff temporarily just to be done with it. Definitely cheaper and I didn't have the time or desire to fix my Cloud Front stuff - I got a headache just looking at it. Let me know if the site performance is better (should be) or worse (that would be a hoot). It definitely will be cheaper until I feel like fixing a bunch of custom invalidation/expiration code.
+
+> The shoemaker's children go barefoot<cite>Anonymous</cite>
+
+Whatever. The bottom line is if you tried to access the site or the store today it was probably more than a bit flakey. Sorry about that. As for the [eBook Store](http://store.rwboyer.com/). If you have trouble with the download stuff please hit me up at [rwboyer(at)mac.com](mailto:rwboyer@mac.com). I completely did the S3 secure one-time use asset url thing so I will be keeping diligent eye on making sure people get their stuff (at least for the next few days). After that I probably won't touch it for another couple of years even though my CSS to-do list is 8 miles long.
+
+On another note, I heard from [Paul Pride](http://paulpride.com/blog/) today. The camera arrived - too bad it was at his workplace and this is his day off. I guess we will have to wait until tomorrow to hear what state it's in. One way or another this will kick the [Paul Pride Project](http://photo.rwboyer.com/2013/07/19/the-paul-pride-project-update-iv/) into high gear. Expect regular updates and commentary going forward. Far more regular than the last two weeks have been. I appreciate everyone's patience for my stupid technology pet tricks.
+
+RB
