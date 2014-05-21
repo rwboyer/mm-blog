@@ -7,7 +7,6 @@ gem "middleman-blog"
 # gem "middleman-sync"
 gem "middleman-s3_sync"
 gem "liquid"
-gem "zurb-foundation"
 gem "unf"
 
 # Live-reloading plugin

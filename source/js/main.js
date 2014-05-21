@@ -1,4 +1,4 @@
-//= require "custom.modernizr"
+//= require "_vendor/modernizr"
 //= require "jquery"
 //= require "foundation"
 //= require "_vendor/lightview3/js/lightview/lightview"

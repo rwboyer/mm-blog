@@ -5,6 +5,7 @@
 # Change Compass configuration
 compass_config do |config|
  config.output_style = :compact
+ config.add_import_path File.join "#{root}", "bower_components/foundation/scss"
 end
 
 ###
@@ -17,6 +18,7 @@ end
 page "/atom.xml", :layout => false
 page "/recent-posts.html", :layout => false
 ignore "/test.html"
+ignore "/bower_components/"
 
 #
 # With alternative layout
@@ -71,10 +73,22 @@ page "googleb3e869d9c79d4a69.html", :directory_index => false
 set :js_dir, 'js'
 set :css_dir, 'css'
 
-foundation_path = Gem::Specification.find_by_name('zurb-foundation').gem_dir
+# foundation 5
+# sprockets.append_path ('bower_components/foundation/js')
+# sprockets.append_path ('bower_components/foundation/js/vendor')
 
-sprockets.append_path (foundation_path + '/js/vendor/')
-sprockets.append_path (foundation_path + '/js/foundation/')
+sprockets.append_path File.join "#{root}", "bower_components"
+
+ready do
+  sprockets.append_path File.join "#{root}", "bower_components"
+  #sprockets.append_path File.join root, 'bower_components'
+end
+
+# foundation 4
+# foundation_path = Gem::Specification.find_by_name('zurb-foundation').gem_dir
+
+# sprockets.append_path (foundation_path + '/js/vendor/')
+# sprockets.append_path (foundation_path + '/js/foundation/')
 
 # print foundation_path + '/js/vendor/' + "\n"
 

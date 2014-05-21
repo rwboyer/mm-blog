@@ -1,52 +1,31 @@
 //.top-bar-section li a:not(.button){ background: rgba(34,34,34,0.0)};
-@media screen and (min-width: 58.75em){
-  .top-bar-section ul, .top-bar-section ul.left, .top-bar-section ul.right, .top-bar-section ul.left > li > a:not(.button), .top-bar-section ul.right > li > a:not(.button){ background: rgba(255,255,255,0.0)};
-  .top-bar-section .has-form{ background: rgba(255,255,255,0.0)};
-}
-
-.top-bar-section ul{
-  background: rgba(255,255,255,0.0);
-  li{
-    background: rgba(255,255,255,0.0); 
-  }
-  li > a{
-    background: rgba(255,255,255,0.0);
-  }
-}
 
 .top-bar img{
   max-height: 100%;
   margin: 0;
 }
 
-.top-bar .toggle-topbar.menu-icon a{
-  color: rgba(34,34,34,1) ;
-}
 
+// Kludge to deal with transp -- is that background redefinition really required?
+ 
+@media #{$topbar-media-query} {
+  .top-bar-section {
 
-.top-bar-section ul{
-  li.active > a{
-    color: rgba(34,34,34,1) ;
-  }
-  li > a{
-    color: rgba(34,34,34,1) ;
-  }
-  li.hover > a{
-    color: rgba(34,34,34,1) ;    
-  }
-}
+    li {
+      &:not(.has-form) {
+        a:not(.button) {
+          background: $topbar-bg-color;
+          &:hover { background: $topbar-link-bg-hover; }
+        }
+      }
+//      &.active:not(.has-form) {
+//       a:not(.button) {
+//          color: $topbar-link-color-active;
+//          background: $topbar-link-bg-active;
+//          &:hover { background: $topbar-link-bg-active-hover; }
+//        }
+//      }
 
-.top-bar-section .dropdown{
-  li.active a{
-    color: rgba(34,34,34,1) ;
-  }
-  li a{
-    color: rgba(34,34,34,1) ;
-  }
-  li.hover a{
-    color: rgba(34,34,34,1) ;    
-  }
-  li.title h5 a{
-    color: rgba(34,34,34,1) ;        
+    }
   }
 }
