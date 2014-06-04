@@ -4,6 +4,15 @@
 
 // This is the default html and body font-size for the base rem value.
 // $rem-base: 16px;
+// 
+$body-font-family: "source-sans-pro", "source-sans-pro", Helvetica, Arial, sans-serif;
+$body-font-weight: 300;
+$body-font-color: #222;
+
+$header-font-family: "source-sans-pro", "source-sans-pro", Helvetica, Arial, sans-serif;
+$header-font-weight: 400;
+$header-font-color: #222;
+
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "foundation/functions";
