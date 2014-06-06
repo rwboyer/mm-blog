@@ -84,17 +84,6 @@ ready do
   #sprockets.append_path File.join root, 'bower_components'
 end
 
-# foundation 4
-# foundation_path = Gem::Specification.find_by_name('zurb-foundation').gem_dir
-
-# sprockets.append_path (foundation_path + '/js/vendor/')
-# sprockets.append_path (foundation_path + '/js/foundation/')
-
-# print foundation_path + '/js/vendor/' + "\n"
-
-#set :js_assets_paths, [File.join(foundation_path, 'js')]
-#set :sass_assets_paths, [File.join(foundation_path, '_scss')]
-
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                     = 'photo.rwboyer.com' # The name of the S3 bucket you are targetting. This is globally unique.
   s3_sync.region                     = 'us-east-1'     # The AWS region for your bucket.
