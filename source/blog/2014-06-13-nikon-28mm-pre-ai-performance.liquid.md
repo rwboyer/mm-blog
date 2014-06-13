@@ -14,7 +14,7 @@ Suddenly this morning a glaring omission occurred to me. As I continuously blath
 
 <!--more-->
 
-Allow me to rectify that situation and provide a level-set for my on-going exploration of various varieties of the [aforementioned 28mm gaggle of glass I’ve acquired](#). For your viewing pleasure (or lack thereof) I present you with some random crap lately that happens to be littering my portable harddrive. Of course they are all *100% crops* from my [Nikon Df](#).
+Allow me to rectify that situation and provide a level-set for my on-going exploration of various varieties of the [aforementioned 28mm gaggle of glass I’ve acquired](http://photo.rwboyer.com/2014/06/12/a-gaggle-of-28mm-lenses/). For your viewing pleasure (or lack thereof) I present you with some random crap lately that happens to be littering my portable harddrive. Of course they are all *100% crops* from my [Nikon Df](http://www.amazon.com/gp/product/B00GD1K8J8/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00GD1K8J8&linkCode=as2&tag=rbde-20).
 
 The specific shooting conditions are typical for me:
 
