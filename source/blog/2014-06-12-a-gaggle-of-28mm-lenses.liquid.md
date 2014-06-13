@@ -10,7 +10,7 @@ tags:
 
 {% img /images/2014/06/DSC_3642.jpg %}
 
-I know have both new (actually old) Nikon 28mm AIS lenses in my hot little hands along with the ancient pre-AI f/3.5 I’ve been using extensively. For comparisons sake I’ve chucked in a couple of other lenses with the bunch. The 50mm 1.4G, 28-70 2.8 AF-S behemoth, and a 50mm 1.2 AIS. Over the next several weeks I plan on utilizing both of the *new* members of the family thuroughly in diverse shooting conditions in order to get a feel for their characteristics. Of course I’ll compare some more pedantic images made with the behemoth but it’s pointless beyond the academics. I know I’m not going to lug that beast around. 
+I now have both new (actually old) Nikon 28mm AIS lenses in my hot little hands along with the ancient pre-AI f/3.5 I’ve been using extensively. For comparisons sake I’ve chucked in a couple of other lenses with the bunch. The 50mm 1.4G, 28-70 2.8 AF-S behemoth, and a 50mm 1.2 AIS. Over the next several weeks I plan on utilizing both of the *new* members of the family thuroughly in diverse shooting conditions in order to get a feel for their characteristics. Of course I’ll compare some more pedantic images made with the behemoth but it’s pointless beyond the academics. I know I’m not going to lug that beast around. 
 
 <!--more-->
 
