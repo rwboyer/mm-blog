@@ -13,7 +13,7 @@ Okay, I know a few of you were chomping at the bit for the Ilford HP5 Plus 35mm 
 
 <!--more-->
 
-Just [download this zip file right here](#) and they’re all yours. I did add a couple of bonus goodies for this set. Specifically strips of 5 already connected together. Seven of them total. The whole point of having a bunch of different frame numbers and strips with various frame numbers and markings is to use them with a real project instead of just one-offs. As usual let me know if you need any *”how-to”* help. They are of enough resolution to scale up to 36 megapixel D800 files if you need. I tested them and they look great. 
+Just [download this zip file right here](/images/2014/07/HP5plus.zip) and they’re all yours. I did add a couple of bonus goodies for this set. Specifically strips of 5 already connected together. Seven of them total. The whole point of having a bunch of different frame numbers and strips with various frame numbers and markings is to use them with a real project instead of just one-offs. As usual let me know if you need any *”how-to”* help. They are of enough resolution to scale up to 36 megapixel D800 files if you need. I tested them and they look great. 
 
 I did leave them a little *ratty* for a more authentic feel.
 
