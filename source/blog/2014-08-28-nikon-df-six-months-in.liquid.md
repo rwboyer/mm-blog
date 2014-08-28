@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Nikon Df: Six Months In
+title: 'The Nikon Df: Six Months In'
 comments: true
 tags:
 - Nikon Df
