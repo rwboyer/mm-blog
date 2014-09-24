@@ -18,7 +18,7 @@ I’m going to walk thru a series of shots I made with my head in the game. Expe
 
 The shot at the top was my exposure calibration and to see if I could maintain sharpness given all of the earlier coffee with the little GR — biggest challenge with the GR is motion blur due to me. Okay, look’s like it’s good but probably need a slower shutter speed for how I want this to go…
 
-{% img /images/2014/08/lR0001413.jpg %}
+{% img /images/2014/08/R0001413.jpg %}
 
 Hmmmm… this is the direction but need to be a bit more careful the 28mm sucks in a lot of stuff. Maybe need to relax a bit as well.
 
