@@ -59,7 +59,7 @@ Here’s the same thing but only one change, less dense blacks, for the numbers 
 
 {% img /images/2014/09/DSC_9866-160cpp-less-black.jpg %}
 
-We still have a far more modern contrast level with none of that VSCO fading so let’s leave that it at that contrast (which is still better than most defaults as it doesn’t have contrast in all the wrong places and a bit less saturation due to the minus saturation in the VSCO color skews) and take out a lot of saturation relatively speaking as in overall saturation slider -10…
+We still have a far more modern contrast level with none of that VSCO fading so let’s leave it at that contrast level (which is still better than most defaults as it doesn’t have contrast in all the wrong places and a bit less saturation due to the minus saturation in the VSCO color skews) and take out a lot of saturation relatively speaking as in overall saturation slider -10…
 
 {% img /images/2014/09/DSC_9866-160cpp-less-sat.jpg %}
 
