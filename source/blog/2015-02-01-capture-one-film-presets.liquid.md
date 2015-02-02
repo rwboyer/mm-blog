@@ -56,7 +56,7 @@ This:
 
 A big giant sloppy soft dodge right where you see the red mask. One hit of +2/3 of a stop of exposure. Exactly the light sloppy drunken dodge I would do in a wet darkroom. Don’t go all super edge precise. I never ever use the auto mask thing — more problems than it’s worth. If you are/were one of those red-ruby mask cut with an Exacto knife kind people you’re probably not going to want a roll-film aesthetic anyway and prolly don’t want any grain either. Oh, and you’re prolly in Photoshop. For the rest of us big and sloppy usually looks better and certainly matches up most real darkroom dodge/burn looks.
 
-What next… I don’t mint the shit in the background. It is exactly what it’s supposed to be for this project. What the hell. Depending on my mood I might just tone the white cords down a bit like this:
+What next… I don’t mind the shit in the background. It is exactly what it’s supposed to be for this project. What the hell. Depending on my mood I might just tone the white cords down a bit like this:
 
 {% img /images/2015/02/screen-68.jpg %}
 
@@ -64,7 +64,7 @@ Another big sloppy brush stoked haphazardly across the cords. This time with a -
 
 For comparison purposes here’s the after sloppy dodge burn…
 
-{% img /images/2015/02/screen-68.jpg %}
+{% img /images/2015/02/screen-69.jpg %}
 
 A lot of you may want to go a lot farther. Do whatever floats your boat but that hint of detail in the upper folds of the dress and especially the hand against the black are perfect in my book. Way better than leaning on the shadow slider to bring out **all the fabric detail** of a black dress in shadow. IMO that looks like dog shit and screams digi. 
 
