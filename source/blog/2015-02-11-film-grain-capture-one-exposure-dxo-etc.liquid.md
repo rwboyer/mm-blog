@@ -54,7 +54,7 @@ Forget that as it’s my criteria mostly because I want to match specific result
 - Shit, that last one was long but I wanted you be able to look and see it. Okay that brings us to smooth gradations which this has plenty of… See the way the grain works, and looks in mid-tone gradations from dark to mid to light on diffuse things. The way that it’s dithered… to me that can either look digital or film grain like. Both of these look similar.
 - Last take a look at the areas of no gradation — even tone. Look at even tones in shadows, midtones, and highlights (not whites) See how they are different? Also note that all of them have a very random and pleasing “clumping” that’s not at all pattern like. Pattern as in repeating pattern that’s at all detectable.
 
-Those are what I’m looking at. The fact I find the rendering compatible from a dedicated think that’s at the top of the food chain like Exposure 7 to a full-blown raw processor/workflow tool is what shocked me.
+Those are what I’m looking at. The fact I find the rendering comparable from a dedicated thing that’s at the top of the film emulator food chain like Exposure 7 to a full-blown raw processor/workflow tool is what shocked me. I was expecting something more along the lines of a LR grain — not that great and definitely not able to match up my real film results.
 
 ### That Matchup Via Exposure 7
 
