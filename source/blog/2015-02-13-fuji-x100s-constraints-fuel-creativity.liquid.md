@@ -30,11 +30,11 @@ How about the same thing with a drastic exposure change to bias for the highligh
 
 A choice of two stops less exposure — and it is a choice — renders a completely different feel. I’m glad I positioned the shadow edge of Sheba against the lighter portion of wall. You can still see subtle separation there along the curve of her back… I like that a lot.
 
-{% img /images/2015/02/x100s/DSCF0088-c1-tmz.jpg %}
+{% img /images/2015/02/x100s/DSCF0089-c1-tmz.jpg %}
 
 Keeping the same camera settings I narrowed down the light by pulling the drape out of frame tighter and narrowing the light source. That made it darker but more importantly it made the light more contrasty in that there was less overall bounce back. Now only a small spot of the wall in the background had any light to speak of. I tightened up the shot and positioned that black shadows against the lighter wall again for this… 
 
-{% img /images/2015/02/x100s/DSCF0089-c1-tmz.jpg %}
+{% img /images/2015/02/x100s/DSCF0090-c1-tmz.jpg %}
 
 A different but similar shot with a minor adjustment in pose and composition how does the same thing feel with that other film look BW400CN?
 
