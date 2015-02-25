@@ -16,13 +16,13 @@ tags:
 
 <!--more-->
 
-> … and I brought the 54mm 1.2 because of it’s breathtaking depth of field \<cite\>Fuji X Acolyte\</cite\>
+> … and I brought the 56mm 1.2 because of it’s breathtaking depth of field \<cite\>Fuji X Acolyte\</cite\>
 
 Hmmm… breathtaking. Breathtaking? Does that happen often when looking thru the lens? You get out of breath? Or does it happen when you see how out of focus it is? Does the breath exit your lungs for a long amount of time? Does it cause delirium due to oxygen starvation to the brain? Does this condition occur merely thinking about a 50mm-ish lens at a relatively large aperture? Or maybe the oxygen starvation only happen with Fuji 50mm-ish lenses with X somewhere in the name?
 
 Here’s some advice; Whatever you do, never go near a typical garden variety 50mm f/1.4 lens on say a full-frame sensor. Watch out though, they’re everywhere hard to stay away from in non X-land. Everywhere you turn if using any of the tens of millions of 35mm SLR’s or FF DSLR’s they’re like landfill. I’m afraid you might actually die of suffocation so please don’t every look. Also never attempt to say frame a picture the same way you would on the APS-c 50mm-ish ‘cause you’ll stand closer and the lack of DOF standing at say three feet vs five feet is going to feel a lot like the absolute vacuum of outer space to your delicate lungs.
 
-Some further conditions to avoid; Never ever, ever, ever use say an 85/1.4 or 85/1.2 as these will cause your lungs to immediately and permanently shrivel to the size of small walnuts. God help you if you get near a 105 f/2 or 135 f/2 they’re pretty common and about the same price as that 54mm. Those may exact collateral damages for anyone standing nearby as full lung implosion is imminent. My cameras are weather sealed but I don’t about keeping the goopy mess out.
+Some further conditions to avoid; Never ever, ever, ever use say an 85/1.4 or 85/1.2 as these will cause your lungs to immediately and permanently shrivel to the size of small walnuts. God help you if you get near a 105 f/2 or 135 f/2 they’re pretty common and about the same price as that 56mm. Those may exact collateral damages for anyone standing nearby as full lung implosion is imminent. My cameras are weather sealed but I don’t about keeping the goopy mess out.
 
 Really? Really, really? F’ing breathtaking? I can forgive camera marketing departments — they use words like this all the time. Camera users? Sure, use those words to sell your own crap if that’s up your ally but please stop it on something as common and garden variety as a 50mm large aperture lens. A 50mm-ish large aperture used at six feet away? Get a hold of yourself. Back away from the kool-aid just a bit. Yes, generally you’ll shoot closer with a 50mm on FF and yes the garden variety 1.4 is almost indistinguishable from say 1.2. Standing closer with 1.4 will net you more out-of-focus-ness than even a tiny bit farther away with a 1.2. 
 
