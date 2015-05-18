@@ -16,7 +16,7 @@ tags:
 
 <!--more-->
 
-> … and I brought the 56mm 1.2 because of it’s breathtaking depth of field \<cite\>Fuji X Acolyte\</cite\>
+> … and I brought the 56mm 1.2 because of it’s breathtaking depth of field <cite>Fuji X Acolyte</cite>
 
 Hmmm… breathtaking. Breathtaking? Does that happen often when looking thru the lens? You get out of breath? Or does it happen when you see how out of focus it is? Does the breath exit your lungs for a long amount of time? Does it cause delirium due to oxygen starvation to the brain? Does this condition occur merely thinking about a 50mm-ish lens at a relatively large aperture? Or maybe the oxygen starvation only happen with Fuji 50mm-ish lenses with X somewhere in the name?
 
