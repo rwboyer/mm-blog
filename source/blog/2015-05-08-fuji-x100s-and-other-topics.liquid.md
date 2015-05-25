@@ -1,62 +1,39 @@
 ---
 layout: post
-title: Fuji X-System, A Clarification 
+title: The Fuji X100S And Other Topics
 comments: true
 tags:
 - fujifilm
-- fuji x100
 - fuji x100s
-- fuji x-system
+- nikon df
 ---
 
-{% img /images/2015/05/DSC_0412.jpg %}
+{% img /images/2015/05/DSCF2763.jpg %}
 
-Reading posts here and there one might thing I’ve got some strange Fuji vendetta. I regularly poke fun, mock, and cast dispersions on the company and it’s products. Turns out I’m a big fan of the company and it’s products. After an extended email conversation with a reader I thought some clarification of my thoughts might be appropriate regarding Fuji and their X-series cameras.
+Still alive. Yep, it’s been a while since the last post. Seems like I’m suffering from a case of spring fever. Anything that involves such indoor, mundane, sit-at-desk kinds of effort is just not something I can tolerate. I’ve been making a whole lot of pictures in the last month or so. Some not bad others… hmmm, not so good but that doesn’t matter. I’m out of the house, winter’s over and I’m having fun with my camera. That’s the important part isn’t it?
+
+I guess that brings us to today’s brief topic; The [Fuji X100S](#) as well as the other two X100 cameras. I consider them pretty much all the same cameras with extremely minor operational and performance differences. I’m sure that various people will argue to the ends of the earth that the difference between an X100, X100S, and an X100T are night and day but from my perspective or say the perspective of comparing **any of them** to a camera such as a Nikon D4 or something they all fall into about the same level of performance and operational characteristics.
 
 <!--more-->
 
-My criticism isn’t targeted at Fuji or the products directly. It’s more or less aimed at the kool-aid drinking users that heap  copious amounts of praise without much context on every single product that comes out of the Fuji factory without much context or comparison. I consider it a bit of Yan to all the Ying, a counterbalance of the universe if you will. I’m a Fuji X-system customer. I’ve owned quite a few products, and have enough experience shooting the cameras side-by-side with alternatives. Most of the heavily negative thoughts or opinions is not intended for happy Fuji customers, it’s more for a level set of potential customers thinking of making a leap.
+Over the course of the last month I’ve really put my cameras through their paces on a sustained basis. The X100S as you might remember is not exactly new to me but I had almost a year without one. It was interesting being away from it for so long and then adding it back into the mix. On a few occasions the little fixed lens Fuji was my sole camera, the only one I took on various photographic excursions. In other cases it served alongside my [Nikon Df](#) as my 35mm lens since I’ve still not purchased a 35mm prime for my Nikons.
 
-Without snark, sarcasm, or agenda here’s my personal bottom-line on the system and cameras as a whole right now.
+In both cases I have a renewed perspective on the X100 series cameras. Some of my findings and observations regarding that camera and the entire Fuji line of cameras are reinforced as well as some non-scientific irrational observations. Let’s take two random images I shot back to back or close to back to back. Let’s say within a few minutes of each other in a real situation as opposed to some sort of back to back *testing*. In other words I cared more about making pictures than comparing cameras.
 
-- Fuji makes the best APS-C camera system in the world right now if you take a step back and evaluate it as a whole. The other guys make okay cameras, in some cases better cameras but in the glass department no other manufacturer comes close. Even the big guys APS-C specific offerings are compromised and have giant holes for most photographers. I consider Canon/Nikon APS-C offerings half-baked. In reality they’re full-frame camera companies unless of course you specialized in super-telephoto shooting.
-- I recommend Fuji to about 80% of people that ask me based on their needs, what they’re using now, budget, and what they seem to want in a camera and camera system.
-- Myself? I could easily use a modest sized Fuji system and be 90% happy never looking back. There’s nothing that’s a show stopper, no technical reason I couldn’t, and if I adjusted my personal priorities just slightly I probably would. Heck, I could probably live with an XPro-1 or even an XE-1 and the 18-55 and be done for under $1000. Really I could. Maybe, just maybe I’d have to chuck a few fast primes in there to satisfy my gear lust.
+{% img /images/2015/05/DSC_1180.jpg %}
 
-What about the downsides? Why don’t I just shoot a small Fuji system and be done with it? What particular priorities cause me to decide against that?
+The image at the top and the one above are SOOC imported into Lightroom CC with [VSCO film 01](#) Fuji 400H preset applied on import. That’s it. No precise matching, nothing. Huge difference in color? Nope. There goes the magic Fuji color bullshit out the window. Same story as I’ve always found. If you’re really nit-picky and not quite so lazy any color difference is again a minor auto-WB difference. 
 
-- Tied for the biggest reason is the state of the software and or speed of the hardware that runs the cameras. They just feel clunky and laggy. Far more a *feel* than a super huge impediment in making pictures. Newer models feel less this way than older ones but still bothersome for me. Highly personal.
-- EVF’s are just not there for me yet. Again a highly personal point of view. Given a choice I still prefer an OVF. Are they getting better? Sure. Does Fuji have the *best EVF’s*? Hard to say definitively but that’s mostly due to how incremental the progress has been. If pressed I’d have to say the one on the new Sony A7II might be the *best one* but that would be a hair different than say the XT-1’s nothing night and day.
-- The mere fact that when the camera is in use the sensor is always, always, always powered up leading to the related fact that it’s impossible to power manage mirrorless cameras remotely the same way as a DSLR. Which leads to horrible battery life. Not a huge deal if that’s the only thing. Ever wonder why there’s no real advances in battery life… sensor is always on. This is probably not going to go away. I get almost 2000 shots out of a battery in my Nikon Df that’s smaller than my X100S battery. No kidding.
+How about exposure? Well both cameras are set at ISO 400. Both cameras are on manual with each having an aperture of f/4. The Nikon is 1/250 and the Fuji X100S is 1/125. So the Fuji is about a stop slower in real ISO as typical the case in side by side. Almost forgot — which is which? Should be easy to tell based on the focal length for those good at detecting that sort of thing. the wider shot should be obviously the X100S. Can’t tell? That would be the one at the top. Myself operating in the 28-85 range for 99.99% of all the pictures I take the difference between a 50mm and a 35mm POV is night and day.
 
-That’s really it. I could go on to list a million minor nits but there really not that big of a deal to me personally. Take a look, they’re all tiny little things — nits. Hardly anything to cast dispersions on. I could do that with any camera I use or ever have used. What’s wrong with the Fuji world in my opinion isn’t the system, it’s the zealots. There seems to be only zealots. Yep, every user base has it’s zealots, there just seems to be only zealots and that’s not a great or even relevant information source for people looking to make decisions with hard earned cash.
+So what’s new? Technically, not much. Here are a few things that really came to the forefront of my head shooting so much with the X100S both alone and along with the Nikon over the last month:
 
-An example: Every single product that comes out. Every minor upgrade in the form of a completely new camera is vaunted as a must-have upgrade and completely revolutionary advancement. In reality Fuji has released the exact same cameras they’ve already had every year as a new model. Minor operational or performance differences at best from the last one. Don’t think that’s the case? I’ll break it down.
+- The X100S is maddeningly slow. Not in some sort of measurement but in overall fluidity of operation. Buttons are horrible and fiddly. Checking the exposure histogram is a noticeable pause vs. the non-event of the Nikon.
+- There are many circumstances where the Fuji just cannot lock focus… as in **cannot no matter what you try.**
+- The broken by design on/off switch actually does turn itself on while in the back just being jostled about. Really it does. Turned it off, put it in my Domke, took a train ride, got to my location, took it out — it was on.
+- When shooting side by side with my Nikons I take **far fewer** shots with the Fuji. This probably holds true when I go solo with the X100S as well. Hard to say definitively when it’s my solo camera but when in combo with the Nikon it’s like 4 to 1. Maybe a good thing, maybe a bad thing. Maybe both. This is directly attributable to it’s lack of fluidity. It’s actually kind of clunky to use in comparison. A steam tractor vs a Porche.
+- There’s a certain disconnected feeling that the X100S shares with every single mirrorless camera I’ve ever used. Something that’s hard to quantify but definitely throws me off. Let’s take the above Nikon shot as an example. A typical example of how I shoot naturally. I’m good at this as long as the camera doesn’t feel like it’s in my way — when the camera disappears. It’s a timing and rhythm thing that has almost nothing to do with the ultimate **speed** of any camera as measured. I can make shots of an in motion or partially in motion subject with timing I gravitate towards all day with the Nikon. Don’t even have to think about it. I **know** looking through any EVF at the moment is a deal killer for that kind of thing for me. That knocks me off my game in all sorts of ways. I can do this with the X100S looking through the OVF but for some reason that somewhat disconnected feeling throws me off. I have to try a lot harder. Not for any particular single shot but for the rhythm of any sequence. Don’t know why but this kind of thing is certainly something one needs to evaluate on your own terms and make decisions on your gear appropriately. You cannot read spec sheets or reviews and figure out things like this that apply to your own personal needs. Can’t be done. Am I saying I cannot make pictures in that way with my X100S? No, I’m just saying it’s not as comfortable natural and fluid doing it.
 
-### X100 Class
+Here’s the interesting part. All of that sounds very negative on the Fuji balance sheet right? Does this mean I’m getting rid of the Fuji? No. The strange thing is I still love it. I like to use it. I tend to shoot a little looser with it. With all of it’s faults and somewhat cumbersome operation I still like it for some sort of irrational reason that can’t be nailed down in my own head. I have however determined my own reason to have the X100S. While it is a stand-in for a 35mm prime next to my Df that’s really not a great idea. More laziness and indecision on my part. 
 
-- X100 released 2011
-- X100S released 2013 new sensor similar IQ, minor performance and operational differences.
-- X100T released 2014 same sensor, same IQ, similar performance and operational characteristics.
-
-### XPro-1 Class
-
-- released 2012 no update ummm same IQ as all the rest of um.
-
-### XE-1 Class
-
-- XE-1 released 2012
-- XE-2 released 2013 same sensor, same IQ, similar performance and operational characteristics.
-- XT-1 released 2014 same sensor, same IQ, similar performance and operational characteristics.
-
-These are absolutely not in the same league as the crazy IQ and performance boosts we all saw every year or two when digital was brand new, not even close but somehow in the Fuji world that’s the way it’s shouted from the rooftops. The company has and has had three cameras of very very similar performance, IQ, and operational characteristics. They’ve been about the same for a while. I won’t talk about the X-mount cameras that nobody uses or cares about. They’re the same camera just without the viewfinder. One might argue that the performance is night and day between these. It’s not if you measure from an unweighted baseline. If you make one of those graphs designed to make tiny differences look bigger than sure, you could make them look like giant differences. 
-
-I remember the hype surrounding the release of the X100S. I bought one thinking okay, now this is going to be night and day based on all the stuff I’ve read on the internet. Shot them side by side and was like… WTF? They’re the same. The one and only thing that was really an improvement was not having to go into *macro mode* for a lot of shots I tend to make at distances I tend to work at. That improvement was software which the X100 also got. WTF? Having shot every one of those cameras above I get the same feeling. 
-
-Contrast that with what I’ll term similar non-event releases in a more mature system. Lets take the D800 to D810 or the D4 to D4s. Crickets. Hell even the D7000 to D7100 which is **REALLY** a giant night/day upgrade, still crickets. Sure if you’re in the market for a new camera great but there’s no deluge of current version users trying to convince the world that it’s a must-have upgrade. The real fan-boys and techno-anxiety types **must must must** get the newest one but that’s not the general notion out there.
-
-I look at it as a public service to just calm everyone down and look at things more even-keeled verse a teenage girl at a Justin Bieber concert. Sort of like that [*breathtaking nonsense*](http://photo.rwboyer.com/2015/02/23/omfg-and-other-things/ "Fuji 56mm 1.2") regarding a 50mm-ish 1.4-ish lens somehow being earth shatteringly different in terms of DOF when in reality subjects framed the same way on a FF digi or film body with the most common lens in the universe delivers even less DOF.
-
-There you have it. Fuji — the absolute best APS-C system out there if you want a full range of great glass at a great value with reasonable IQ. Need a sports camera with even more reach and faster response in APS-C without a full lens lineup dedicated to APS-C, there maybe better choices. Want to go mirrorless with a couple of really nice primes Fuji really is hard to beat. I like what they’ve done, especially in the lens department at prices that are real-world obtainable. 
-
-RB
+The **reason for the X100S** is when I take it solo on it’s own. No camera bag, no accessories or choices to make, no lens adaptors just the X100S hanging on a strap. The reason for the X100S in my case is lack of choices in terms of gear, the lack of the mental or physical burden of any camera bag at all. On a closely related note using the X100S solo with no other camera or gear change-outs is a very different photographer/subject dynamic. It’s not the same if you are switching up cameras and lenses and attachments. In fact doing so negates any of that *different dynamic*. Let’s call this hard to pin down dynamic more of a narrative snapshot feel. So far the X100 series of cameras with it’s used bare and on it’s own is about the best camera out there for achieving this kind of photographer/subject feel. More on that to come as my spring fever continues to fuel my prolific season that disappears all to soon.
