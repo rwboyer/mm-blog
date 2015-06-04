@@ -21,8 +21,6 @@ I’ve included ten images from the first time I spent any real time on the proj
 
 One star images have a semi-special meaning in my long and winding recursive edit process. It means I don’t know why I like them but there’s something about them that I find interesting. A few of these passed over images have actually turned out to be some of my favorites with time and distance between when I made them, more experience on the project, and the project taking on a more definite shape.
 
-{% img /images/2015/05/anastasia/DSCF9477.jpg %}
-
 The biggest obstacle I’ve faced has been that setting out just to shoot this project as an agenda doesn’t work. Sure I get a few decent pictures here and there (maybe even better technically) but not any that work for what I want the project to look like and more importantly feel like. There’s just something different about documentary captured or found moments versus *created moments*.
 
 {% img /images/2015/05/anastasia/DSCF9450.jpg %}
@@ -46,8 +44,6 @@ Having a discrete camera, a quiet camera certainly helps but how silent depends 
 {% img /images/2015/05/anastasia/DSC_9019.jpg %}
 
 If you look hard enough you can probably guess which ones are which. Was more of a function of which camera I was using to make that *”other stuff”* than any intent.
-
-{% img /images/2015/05/anastasia/DSC_9019.jpg %}
 
 The other challenge that’s should be obvious but wasn’t so obvious when I started out is that what I had in mind was so narrowly focused the opportunity to make photographs is far more limited than I though it would be. Specifically situations where subjects in mirrors would be in any reasonable position where I could make candid pictures. 
 
