@@ -31,7 +31,7 @@ Truth be told under the same exact circumstances and the same picture I would be
 
 Let’s take a look at another scene with slightly different characteristics. Something I did on a lark that’s actually going to turn into a series, I think. Specnoificaitons are ISO 800 f/4.0 @ 1/180s 35.8mm.
 
-{% img /images/2015/07/DSCF6135.png %}
+{% img /images/2015/07/DSCF6135.jpg %}
 
 Oh come now, white halter top dress, what the heck did you think I was going to do? In any case that $9 crappy dress looks really crappy just sitting there. Doesn’t look so bad when it’s moving. In this case I still would have a hard time really telling the difference. Subject movement, shallower depth of field, and a bunch of other stuff may overwhelm lens quality differences in %99.9 of cases.
 
