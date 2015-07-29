@@ -43,7 +43,7 @@ This time the specs are 1/125 and f/5.0 22.3mm. All of the motion and lack of de
 
 So why all the hub-bub bub? Well let’s look a little closer at different stuff shall we?
 
-{% img /images/2015/07/marilyn-series-corner.jpg %}
+{% img /images/2015/07/marilyn-series-corner.png %}
 
 Woah, what is that crap around the black edge of the table?? Well, a bunch of it is the purple/green stuff you get from being in front or in back of the focus plane on hard black/white edges. I can get rid of that with LR if I want to but guess what, underneath that theres like real CA to and it does it in the corners more than it does in the central part of the frame for whatever strange opto-reason. Also note that as we travel closer to the edge the performance definitely goes down in terms of real sharpness even where I think this lens is best (short to mid focal lengths). 
 
